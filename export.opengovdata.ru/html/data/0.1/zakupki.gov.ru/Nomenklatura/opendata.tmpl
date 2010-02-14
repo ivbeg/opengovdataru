@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opendata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd">
+	<source id="zakupki_gov_ru_Nomenklatura">
+		<name>Структурированная номенклатура продукции для государственных и муниципальных нужд</name>
+		<description>Структурированная номенклатура продукции для государственных и муниципальных нужд.</description>
+		<org>
+			<name>Минэкономразвития</name>
+			<description>Министерство Экономического развития Российской Федерации</description>
+			<website>http://www.economy.gov.ru/</website>
+			<address>125993, ГСП-3, Москва, А-47, 1-я Тверская-Ямская ул., д.1,3</address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://www.zakupki.gov.ru/Default.aspx?link=21</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="True"></datatype>
+		<created>2009-08-30T12:28:37Z</created>
+		<updated>2009-08-30T12:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="zakupki_gov_ru_Nomenklatura_table">
+			<cols>
+				<colspec num="1" key="code" unique="true" type="string">
+					<name>Код</name>
+					<description>Код структурированной номенклатуры</description>
+				</colspec>
+				<colspec num="2" key="measure" type="string">
+					<name>Единицы измерений</name>
+					<description>Единицы измерний по ОКЕИ</description>
+				</colspec>
+				<colspec num="3" key="name" type="string">
+					<name>Наименование</name>
+					<description>Наименование записи</description>
+				</colspec>
+				<colspec num="4" key="level" type="integer">
+					<name>Уровень</name>
+					<description>Уровень кода в иерархии от 1 до 7.</description>
+				</colspec>
+				<colspec num="5" key="parent" type="string">
+					<name>Код вышестоящей записи</name>
+					<description>Код вышестоящей записи</description>
+				</colspec>
+				<colspec num="6" key="type" type="string">
+					<name>Признак типа записи</name>
+					<description>G - для товаров, R - для работ и S - для услуг</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+		</current>
+	</data>
+</opendata>

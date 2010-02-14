@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opendataindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendataindex.xsd">
+    <opendata>
+        <loc>http://export.opengovdata.ru/data/0.1/gibdd.ru/AutoCodes/opendata.xml</loc>
+        <lastmod>2009-04-22T16:28:37Z</lastmod>
+    </opendata>
+    <opendata>
+        <loc>http://export.opengovdata.ru/data/0.1/kremlin.ru/KadryReserv/opendata.xml</loc>
+        <lastmod>2009-04-22T16:28:37Z</lastmod>
+    </opendata>    
+    <opendata>
+        <loc>http://export.opengovdata.ru/data/0.1/roskazna.ru/TerrDepartments/opendata.xml</loc>
+        <lastmod>2009-07-07T12:00:11Z</lastmod>
+    </opendata>        
+    <opendata>
+        <loc>http://export.opengovdata.ru/data/0.1/science_common/GRNTI/opendata.xml</loc>
+        <lastmod>2009-08-31T10:00:11Z</lastmod>
+    </opendata>        
+    <opendata>
+        <loc>http://export.opengovdata.ru/data/0.1/science_common/MKB10/opendata.xml</loc>
+        <lastmod>2009-08-31T10:00:11Z</lastmod>
+    </opendata>        
+    <opendata>
+        <loc>http://export.opengovdata.ru/data/0.1/zakupki.gov.ru/Nomenklatura/opendata.xml</loc>
+        <lastmod>2009-08-31T10:00:11Z</lastmod>
+    </opendata>        
+</opendataindex>

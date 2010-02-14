@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opendataxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendataxml.xsd">
+	<data>
+		<table>
+			<row>
+				<col num="1">01</col>
+				<col num="2">Республика Адыгея</col>
+				<col num="3">0100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">02</col>
+				<col num="2">Республика Башкортостан</col>
+				<col num="3">0200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">03</col>
+				<col num="2">Республика Бурятия</col>
+				<col num="3">0300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">04</col>
+				<col num="2">Республика Алтай (Горный Алтай)</col>
+				<col num="3">0400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">05</col>
+				<col num="2">Республика Дагестан</col>
+				<col num="3">0500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">06</col>
+				<col num="2">Республика Ингушетия</col>
+				<col num="3">0600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">07</col>
+				<col num="2">Кабардино-Балкарская Республика</col>
+				<col num="3">0700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">08</col>
+				<col num="2">Республика Калмыкия</col>
+				<col num="3">0800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">09</col>
+				<col num="2">Республика Карааево-Черкесия</col>
+				<col num="3">0900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">10</col>
+				<col num="2">Республика Карелия</col>
+				<col num="3">1000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">11</col>
+				<col num="2">Республика Коми</col>
+				<col num="3">1100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">12</col>
+				<col num="2">Республика Марий Эл</col>
+				<col num="3">1200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">13</col>
+				<col num="2">Республика Мордовия</col>
+				<col num="3">1300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">14</col>
+				<col num="2">Республика Саха (Якутия)</col>
+				<col num="3">1400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">15</col>
+				<col num="2">Республика Северная Осетия (Алания)</col>
+				<col num="3">1500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">16</col>
+				<col num="2">Республика Татарстан</col>
+				<col num="3">1600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">17</col>
+				<col num="2">Республика Тыва</col>
+				<col num="3">1700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">18</col>
+				<col num="2">Удмуртская республика</col>
+				<col num="3">1800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">19</col>
+				<col num="2">Республика Хакасия</col>
+				<col num="3">1900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">20</col>
+				<col num="2">Чеченская республика</col>
+				<col num="3">2000000000000</col>
+				<col num="4">0</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">21</col>
+				<col num="2">Чувашская республика</col>
+				<col num="3">2100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">22</col>
+				<col num="2">Алтайский край</col>
+				<col num="3">2200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">23</col>
+				<col num="2">Краснодарский край</col>
+				<col num="3">2300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">24</col>
+				<col num="2">Красноярский край</col>
+				<col num="3">8400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">25</col>
+				<col num="2">Приморский край</col>
+				<col num="3">2500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">26</col>
+				<col num="2">Ставропольский край</col>
+				<col num="3">2600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">27</col>
+				<col num="2">Хабаровский край</col>
+				<col num="3">2700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">28</col>
+				<col num="2">Амурская область</col>
+				<col num="3">2800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">29</col>
+				<col num="2">Архангельская область</col>
+				<col num="3">2900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">30</col>
+				<col num="2">Астраханская область</col>
+				<col num="3">3000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">31</col>
+				<col num="2">Белгородская область</col>
+				<col num="3">3100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">32</col>
+				<col num="2">Брянская область</col>
+				<col num="3">3200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">33</col>
+				<col num="2">Владимирская область</col>
+				<col num="3">3300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">34</col>
+				<col num="2">Волгоградская область</col>
+				<col num="3">3400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">35</col>
+				<col num="2">Вологодская область</col>
+				<col num="3">3500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">36</col>
+				<col num="2">Воронежская область</col>
+				<col num="3">3600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">37</col>
+				<col num="2">Ивановская область</col>
+				<col num="3">3700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">38</col>
+				<col num="2">Иркутская область</col>
+				<col num="3">3800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">39</col>
+				<col num="2">Калининградская область</col>
+				<col num="3">3900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">40</col>
+				<col num="2">Калужская область</col>
+				<col num="3">4000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">41</col>
+				<col num="2">Камчатский край</col>
+				<col num="3">4100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">42</col>
+				<col num="2">Кемеровская область</col>
+				<col num="3">4200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">43</col>
+				<col num="2">Кировская область</col>
+				<col num="3">4300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">44</col>
+				<col num="2">Костромская область</col>
+				<col num="3">4400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">45</col>
+				<col num="2">Курганская область</col>
+				<col num="3">4500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">46</col>
+				<col num="2">Курская область</col>
+				<col num="3">4600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">47</col>
+				<col num="2">Ленинградская область</col>
+				<col num="3">4700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">48</col>
+				<col num="2">Липецкая область</col>
+				<col num="3">4800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">49</col>
+				<col num="2">Магаданская область</col>
+				<col num="3">4900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">50</col>
+				<col num="2">Московская область</col>
+				<col num="3">5000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">51</col>
+				<col num="2">Мурманская область</col>
+				<col num="3">5100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">52</col>
+				<col num="2">Нижегородская область</col>
+				<col num="3">5200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">53</col>
+				<col num="2">Новгородская область</col>
+				<col num="3">5300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">54</col>
+				<col num="2">Новосибирская область</col>
+				<col num="3">5400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">55</col>
+				<col num="2">Омская область</col>
+				<col num="3">5500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">56</col>
+				<col num="2">Оренбургская область</col>
+				<col num="3">5600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">57</col>
+				<col num="2">Орловская область</col>
+				<col num="3">5700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">58</col>
+				<col num="2">Пензенская область</col>
+				<col num="3">5800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">59</col>
+				<col num="2">Пермский край</col>
+				<col num="3">5900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">60</col>
+				<col num="2">Псковская область</col>
+				<col num="3">6000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">61</col>
+				<col num="2">Ростовская область</col>
+				<col num="3">6100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">62</col>
+				<col num="2">Рязанская область</col>
+				<col num="3">6200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">63</col>
+				<col num="2">Самарская область</col>
+				<col num="3">6300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">64</col>
+				<col num="2">Саратовская область</col>
+				<col num="3">6400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">65</col>
+				<col num="2">Сахалинская область</col>
+				<col num="3">6500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">66</col>
+				<col num="2">Свердловская область</col>
+				<col num="3">6600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">67</col>
+				<col num="2">Смоленская область</col>
+				<col num="3">6700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">68</col>
+				<col num="2">Тамбовская область</col>
+				<col num="3">6800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">69</col>
+				<col num="2">Тверская область</col>
+				<col num="3">6900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">70</col>
+				<col num="2">Томская область</col>
+				<col num="3">7000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">71</col>
+				<col num="2">Тульская область</col>
+				<col num="3">7100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">72</col>
+				<col num="2">Тюменская область</col>
+				<col num="3">7200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">73</col>
+				<col num="2">Ульяновская область</col>
+				<col num="3">7300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">74</col>
+				<col num="2">Челябинская область</col>
+				<col num="3">7400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">75</col>
+				<col num="2">Забайкальский край</col>
+				<col num="3">8000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">76</col>
+				<col num="2">Ярославская область</col>
+				<col num="3">7600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">77</col>
+				<col num="2">г. Москва</col>
+				<col num="3">7700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">78</col>
+				<col num="2">г. Санкт-Петербург</col>
+				<col num="3">7800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">79</col>
+				<col num="2">Еврейская автономная область</col>
+				<col num="3">7900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">80</col>
+				<col num="2">Забайкальский край</col>
+				<col num="3">8000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">81</col>
+				<col num="2">Пермский край</col>
+				<col num="3">5900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">82</col>
+				<col num="2">Камчатский край</col>
+				<col num="3">4100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">83</col>
+				<col num="2">Ненецкий автономный округ</col>
+				<col num="3">8300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">84</col>
+				<col num="2">Красноярский край</col>
+				<col num="3">8400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">85</col>
+				<col num="2">Иркутская область</col>
+				<col num="3">8500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">86</col>
+				<col num="2">Ханты-Мансийский автономный округ - Югра</col>
+				<col num="3">8600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">87</col>
+				<col num="2">Чукотский автономный округ</col>
+				<col num="3">8700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">88</col>
+				<col num="2">Красноярский край</col>
+				<col num="3">8400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">89</col>
+				<col num="2">Ямало-Ненецкий автономный округ</col>
+				<col num="3">8900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">90</col>
+				<col num="2">Московская область</col>
+				<col num="3">5000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">91</col>
+				<col num="2">Калининградская область</col>
+				<col num="3">3900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">92</col>
+				<col num="2">Резерв МВД Российской Федерации</col>
+				<col num="3">
+				</col>
+				<col num="4">1</col>
+				<col num="5">1</col>
+			</row>
+			<row>
+				<col num="1">93</col>
+				<col num="2">Краснодарский край</col>
+				<col num="3">2300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">94</col>
+				<col num="2">Территории, находящиеся за пределами РФ и обслуживаемые Управлением режимных объектов МВД России (например, Байконур)</col>
+				<col num="3">
+				</col>
+				<col num="4">1</col>
+				<col num="5">1</col>
+			</row>
+			<row>
+				<col num="1">95</col>
+				<col num="2">Чеченская республика</col>
+				<col num="3">2000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">96</col>
+				<col num="2">Свердловская область</col>
+				<col num="3">6600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">97</col>
+				<col num="2">г. Москва</col>
+				<col num="3">7700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">98</col>
+				<col num="2">г. Санкт-Петербург</col>
+				<col num="3">7800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">99</col>
+				<col num="2">г. Москва</col>
+				<col num="3">7700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">102</col>
+				<col num="2">Республика Башкортостан</col>
+				<col num="3">0200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">116</col>
+				<col num="2">Республика Татарстан</col>
+				<col num="3">1600000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">121</col>
+				<col num="2">Чувашская республика</col>
+				<col num="3">2100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">125</col>
+				<col num="2">Приморский край</col>
+				<col num="3">2500000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">138</col>
+				<col num="2">Иркутская область</col>
+				<col num="3">3800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">142</col>
+				<col num="2">Кемеровская область</col>
+				<col num="3">4200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">150</col>
+				<col num="2">Московская область</col>
+				<col num="3">5000000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">152</col>
+				<col num="2">Нижегородская область</col>
+				<col num="3">5200000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">154</col>
+				<col num="2">Новосибирская область</col>
+				<col num="3">5400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">159</col>
+				<col num="2">Пермский край</col>
+				<col num="3">5900000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">161</col>
+				<col num="2">Ростовская область</col>
+				<col num="3">6100000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">163</col>
+				<col num="2">Самарская область</col>
+				<col num="3">6300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">164</col>
+				<col num="2">Саратовская область</col>
+				<col num="3">6400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">173</col>
+				<col num="2">Ульяновская область</col>
+				<col num="3">7300000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">174</col>
+				<col num="2">Челябинская область</col>
+				<col num="3">7400000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">177</col>
+				<col num="2">г. Москва</col>
+				<col num="3">7700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">178</col>
+				<col num="2">г. Санкт-Петербург</col>
+				<col num="3">7800000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+			<row>
+				<col num="1">199</col>
+				<col num="2">г. Москва</col>
+				<col num="3">7700000000000</col>
+				<col num="4">1</col>
+				<col num="5">0</col>
+			</row>
+		</table>
+	</data>
+</opendataxml>

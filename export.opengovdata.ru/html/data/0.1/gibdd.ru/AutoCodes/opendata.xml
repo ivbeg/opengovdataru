@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opendata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd">
+	<source id="gibdd_ru_AutoCodes">
+		<name>Перечень цифровых кодов регионов Российской Федерации применяемых на государственных регистрационных знаках транспортных средств и другой специальной технике</name>
+		<description>Перечень цифровых кодов регионов Российской Федерации применяемых на государственных регистрационных знаках транспортных средств и другой специальной технике (в формате приказа МВД России от 28 марта 2002 г. N 282 О ГОСУДАРСТВЕННЫХ РЕГИСТРАЦИОННЫХ ЗНАКАХ ТРАНСПОРТНЫХ СРЕДСТВ</description>
+		<org>
+			<name>Госавтоинспекция МВД России</name>
+			<description>Департамент обеспечения безопасности дорожного движения МВД России</description>
+			<website>http://www.gibdd.ru</website>
+			<address></address>
+		</org>
+		<language>ru-RU</language>
+	</source>
+	<datainfo>
+		<datatype is_updatable="False" />
+		<created>2009-04-22T16:28:37Z</created>
+		<updated>2009-04-22T16:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="gibdd_ru_AutoCodes_table">
+			<cols>
+				<colspec num="1" key="code" unique="true" type="string">
+					<name>Код ГИБДД</name>
+					<description>Код транспортного средства</description>
+				</colspec>
+				<colspec num="2" key="regionName" type="string">
+					<name>Название региона</name>
+					<description>Название региона Российской федерации или иного способа применения номера</description>
+				</colspec>
+				<colspec num="3" key="regionKLADRCode" type="string">
+					<name>Код КЛАДР</name>
+					<description>Код КЛАДР связанного с кодом региона</description>
+				</colspec>
+				<colspec num="4" key="isActual" type="boolean">
+					<name>Актуальность кода</name>
+					<description>Если 1 код действующий, если 0 - недействующий</description>
+				</colspec>
+				<colspec num="5" key="isSpecial" type="boolean">
+					<name>Особенный код</name>
+					<description>Если 0 - код привязан к региону, если 1 - код не имеет региональной привязки</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+			<tableref type="full" specid="gibdd_ru_AutoCodes_table" date_updated="2009-04-22T16:28:37" format="openDataXML" url="http://export.opengovdata.ru/data/0.1/gibdd.ru/AutoCodes/gibdd_ru_AutoCodes.xml" hash_sha512="48a87401946ca7ee7738672cc6d0629b71916a7824ffaa9257a775460031835d26f3498619cfa36add0f2ba0d8a7d946d65b3d9b307859a4577f8c2e66dac33e" />
+			<tableref type="full" specid="gibdd_ru_AutoCodes_table" date_updated="2009-04-22T16:28:37" format="CSV" url="http://export.opengovdata.ru/data/0.1/gibdd.ru/AutoCodes/gibdd_ru_AutoCodes.csv" hash_sha512="4eb606c591c1ccc8d3ce5f253b2b1ab0476e2ba7568ca8565f3aba20e265d7f16547d15ce553e75106a9159466cb551b98621ce97458ac24a8fadcd0a563d6f8" />
+			<tableref type="full" specid="gibdd_ru_AutoCodes_table" date_updated="2009-04-22T16:28:37" format="TSV" url="http://export.opengovdata.ru/data/0.1/gibdd.ru/AutoCodes/gibdd_ru_AutoCodes.tsv" hash_sha512="4fd1c0364fa3b75c87053cd15ce2747a547d8755213515aea2406885cbe32f34ad5f46f84d19b0ab33c51e06f36cacf02e5457c24c36c7b65c207d5a58e6fed2" />
+		</current>
+	</data>
+</opendata>

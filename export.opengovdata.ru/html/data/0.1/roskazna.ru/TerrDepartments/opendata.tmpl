@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opendata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd">
+	<source id="roskazna_ru_TerrDepartments">
+		<name>Территориальные органы Федерального Казначейства</name>
+		<description>АДРЕСНО - ТЕЛЕФОННЫЙ СПРАВОЧНИК УПРАВЛЕНИЙ ФЕДЕРАЛЬНОГО КАЗНАЧЕЙСТВА ПО СУБЪЕКТАМ РОССИЙСКОЙ ФЕДЕРАЦИИ</description>
+		<org>
+			<name>Казначейство России</name>
+			<description>Федеральное казначейство (Казначейство России) является федеральным органом исполнительной власти (федеральной службой), осуществляющим в соответствии с законодательством Российской Федерации правоприменительные функции по обеспечению исполнения федерального бюджета, кассовому обслуживанию исполнения бюджетов бюджетной системы Российской Федерации, предварительному и текущему контролю за ведением операций со средствами федерального бюджета главными распорядителями, распорядителями и получателями средств федерального бюджета.</description>
+			<website>http://www.roskazna.ru/</website>
+			<address>109097 г. Москва, ул. Ильинка, д. 9.</address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://www.roskazna.ru/p/fk/ter_organs.html</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="True"></datatype>
+		<created>2009-07-07T12:28:37Z</created>
+		<updated>2009-07-07T12:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="roskazna_ru_TerrDepartments_table">
+			<cols>
+				<colspec num="1" key="num" unique="true" type="integer">
+					<name>Номер</name>
+					<description>Номер в списке</description>
+				</colspec>
+				<colspec num="2" key="name" type="string">
+					<name>Наименование</name>
+					<description>Наименование территориального органа</description>
+				</colspec>
+				<colspec num="3" key="address" type="string">
+					<name>Адрс</name>
+					<description>Адрес управления</description>
+				</colspec>
+				<colspec num="4" key="chief" type="string">
+					<name>Руководитель</name>
+					<description>Руководитель управления</description>
+				</colspec>
+				<colspec num="5" key="phone" type="string">
+					<name>Телефон</name>
+					<description>Один или несколько телефонов</description>
+				</colspec>
+				<colspec num="6" key="fax" type="string">
+					<name>Факс</name>
+					<description>Один или несколько номеров факса</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+		</current>
+	</data>
+</opendata>

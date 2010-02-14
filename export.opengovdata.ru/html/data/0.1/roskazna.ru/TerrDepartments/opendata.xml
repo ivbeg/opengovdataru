@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf8'?>
+<opendata ns0:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance">
+	<source id="roskazna_ru_TerrDepartments">
+		<name>Территориальные органы Федерального Казначейства</name>
+		<description>АДРЕСНО - ТЕЛЕФОННЫЙ СПРАВОЧНИК УПРАВЛЕНИЙ ФЕДЕРАЛЬНОГО КАЗНАЧЕЙСТВА ПО СУБЪЕКТАМ РОССИЙСКОЙ ФЕДЕРАЦИИ</description>
+		<org>
+			<name>Казначейство России</name>
+			<description>Федеральное казначейство (Казначейство России) является федеральным органом исполнительной власти (федеральной службой), осуществляющим в соответствии с законодательством Российской Федерации правоприменительные функции по обеспечению исполнения федерального бюджета, кассовому обслуживанию исполнения бюджетов бюджетной системы Российской Федерации, предварительному и текущему контролю за ведением операций со средствами федерального бюджета главными распорядителями, распорядителями и получателями средств федерального бюджета.</description>
+			<website>http://www.roskazna.ru/</website>
+			<address>109097 г. Москва, ул. Ильинка, д. 9.</address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://www.roskazna.ru/p/fk/ter_organs.html</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="True" />
+		<created>2009-07-07T12:28:37Z</created>
+		<updated>2009-07-07T12:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="roskazna_ru_TerrDepartments_table">
+			<cols>
+				<colspec key="num" num="1" type="integer" unique="true">
+					<name>Номер</name>
+					<description>Номер в списке</description>
+				</colspec>
+				<colspec key="name" num="2" type="string">
+					<name>Наименование</name>
+					<description>Наименование территориального органа</description>
+				</colspec>
+				<colspec key="address" num="3" type="string">
+					<name>Адрс</name>
+					<description>Адрес управления</description>
+				</colspec>
+				<colspec key="chief" num="4" type="string">
+					<name>Руководитель</name>
+					<description>Руководитель управления</description>
+				</colspec>
+				<colspec key="phone" num="5" type="string">
+					<name>Телефон</name>
+					<description>Один или несколько телефонов</description>
+				</colspec>
+				<colspec key="fax" num="6" type="string">
+					<name>Факс</name>
+					<description>Один или несколько номеров факса</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+		<tableref date_updated="2009-07-07T14:00:09.813807" format="CSV" hash_sha512="330a383e34e3ff116174a3e6e0219f7a8281943b7e868cbe03ff77526681799738741540320f1092c9515060081ea82748beaba3d912ead4eb2e5d9a2973b9bd" specid="roskazna_ru_TerrDepartments_table" type="full" url="http://export.opengovdata.ru/data/0.1/roskazna.ru/TerrDepartments/roskazna_ru_TerrDepartments.csv" /><tableref date_updated="2009-07-07T14:00:09.816362" format="TSV" hash_sha512="c5d8fd5fc72f350a1a33676a9b3f9ac91d44c01d08acc89805e3ddd78317fb843e0d05ca4d1ce279c7b23f9560f5163146e80d9f250e858e2e1a0e91fd19d2d8" specid="roskazna_ru_TerrDepartments_table" type="full" url="http://export.opengovdata.ru/data/0.1/roskazna.ru/TerrDepartments/roskazna_ru_TerrDepartments.tsv" /><tableref date_updated="2009-07-07T14:00:09.916048" format="openDataXML" hash_sha512="9ad22e8495f713dc02102cee954086e080d91c060851c082ff4776870f4d14cdd04da5eba718b603adfe2d39278e66991983ff347bd17ec1b64216267c6399ad" specid="roskazna_ru_TerrDepartments_table" type="full" url="http://export.opengovdata.ru/data/0.1/roskazna.ru/TerrDepartments/roskazna_ru_TerrDepartments.xml" /></current>
+	</data>
+</opendata>

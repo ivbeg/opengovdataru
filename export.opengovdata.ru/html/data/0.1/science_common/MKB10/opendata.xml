@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf8'?>
+<opendata ns0:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance">
+	<source id="science_common_GRNI">
+		<name>Международная классификация болезней 10-го пересмотра</name>
+		<description>МКБ-10 — Международная классификация болезней 10-го пересмотра. На январь 2007 года является общепринятой классификацией для кодирования медицинских диагнозов, разработана Всемирной организацией здравоохранения. МКБ-10 состоит из 21-го раздела, каждый из которых содержит подразделы с кодами заболеваний и состояний.</description>
+		<org>
+			<name>Всемирнай организация здравоохранения (ВОЗ)</name>
+			<description></description>
+			<website>http://www.who.int</website>
+			<address></address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://apps.who.int/classifications/apps/icd/icd10online/</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="True" />
+		<created>2010-01-29T12:28:37Z</created>
+		<updated>2010-01-29T12:28:37Z</updated>
+		<preparedBy>
+			<author>Yuri Kudryavcev</author>
+			<authorWebsite>http://www.opengovdata.ru</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="science_common_GRNTI_table">
+			<cols>
+				<colspec key="id" num="1" type="integer" unique="true">
+					<name>Идентификатор</name>
+					<description>Идентификатор (искусственный ключ)</description>
+				</colspec>
+				<colspec key="mkb_values" num="2" type="string">
+					<name>Значение</name>
+					<description>Значение записи в МКБ 10</description>
+				</colspec>
+				<colspec key="parent" num="3" type="integer">
+					<name>Родительский код</name>
+					<description>Родительский код</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+		<tableref date_updated="2010-01-29T12:00:00.0" format="CSV" hash_sha512="cf62854a61712be6966d396500cab287befcc78e2ced0a6a7c18a71a3c356bad84834d543231374167d39818555776cc5ffe9209817ae5f7bd8001a0a182a7ea" specid="science_common_MKB10_table" type="full" url="http://export.opengovdata.ru/data/0.1/science_common/MKB10/science_common_mkb10.csv" />
+		</current>		
+	</data>
+</opendata>

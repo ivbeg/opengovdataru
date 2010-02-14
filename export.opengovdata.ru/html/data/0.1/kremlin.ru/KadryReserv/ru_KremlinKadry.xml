@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opendataxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendataxml.xsd">
+	<data>
+		<table>
+			<row>
+				<col num="1">1</col>
+				<col num="2">Баринов Игорь Вячеславович</col>
+				<col num="3">Баринов</col>
+				<col num="4">Игорь</col>
+				<col num="5">Вячеславович</col>
+				<col num="6">0</col>
+				<col num="7">1968</col>
+				<col num="8">Государственная Дума ФС РФ</col>
+				<col num="9">Депутат</col>
+			</row>
+			<row>
+				<col num="1">2</col>
+				<col num="2">Белозеров Олег Валентинович</col>
+				<col num="3">Белозеров</col>
+				<col num="4">Олег</col>
+				<col num="5">Валентинович</col>
+				<col num="6">0</col>
+				<col num="7">1969</col>
+				<col num="8">Росавтодор</col>
+				<col num="9">Руководитель</col>
+			</row>
+			<row>
+				<col num="1">3</col>
+				<col num="2">Бударгин Олег Михайлович</col>
+				<col num="3">Бударгин</col>
+				<col num="4">Олег</col>
+				<col num="5">Михайлович</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">Аппарат полномочного представителя Президента РФ в СФО</col>
+				<col num="9">Помощник полномочного представителя</col>
+			</row>
+			<row>
+				<col num="1">4</col>
+				<col num="2">Вельмяйкин Сергей Федорович </col>
+				<col num="3">Вельмяйкин</col>
+				<col num="4">Сергей</col>
+				<col num="5">Федорович</col>
+				<col num="6">0</col>
+				<col num="7">1978</col>
+				<col num="8">Минздравсоцразвития России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">5</col>
+				<col num="2">Вовченко Алексей Витальевич</col>
+				<col num="3">Вовченко</col>
+				<col num="4">Алексей</col>
+				<col num="5">Витальевич</col>
+				<col num="6">0</col>
+				<col num="7">1975</col>
+				<col num="8">Роструд</col>
+				<col num="9">Заместитель руководителя</col>
+			</row>
+			<row>
+				<col num="1">6</col>
+				<col num="2">Воскресенский Станислав Сергеевич</col>
+				<col num="3">Воскресенский</col>
+				<col num="4">Станислав</col>
+				<col num="5">Сергеевич</col>
+				<col num="6">0</col>
+				<col num="7">1976</col>
+				<col num="8">Минэкономразвития России</col>
+				<col num="9">Заместитель Министра</col>
+			</row>
+			<row>
+				<col num="1">7</col>
+				<col num="2">Гончаров Владимир Александрович</col>
+				<col num="3">Гончаров</col>
+				<col num="4">Владимир</col>
+				<col num="5">Александрович</col>
+				<col num="6">0</col>
+				<col num="7">1972</col>
+				<col num="8">Росрегистрация</col>
+				<col num="9">Руководитель Управления по Ростовской области</col>
+			</row>
+			<row>
+				<col num="1">8</col>
+				<col num="2">Горбачик Татьяна Владимировна</col>
+				<col num="3">Горбачик</col>
+				<col num="4">Татьяна</col>
+				<col num="5">Владимировна</col>
+				<col num="6">1</col>
+				<col num="7">1970</col>
+				<col num="8">Минтранс России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">9</col>
+				<col num="2">Денисенко Олег Иванович</col>
+				<col num="3">Денисенко</col>
+				<col num="4">Олег</col>
+				<col num="5">Иванович</col>
+				<col num="6">0</col>
+				<col num="7">1962</col>
+				<col num="8">Государственная Дума ФС РФ</col>
+				<col num="9">Депутат</col>
+			</row>
+			<row>
+				<col num="1">10</col>
+				<col num="2">Жуков Андрей Викторович</col>
+				<col num="3">Жуков</col>
+				<col num="4">Андрей</col>
+				<col num="5">Викторович</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Минтранс России </col>
+				<col num="9">Начальник Северо-Западного межрегионального управления государственного автодорожного надзора</col>
+			</row>
+			<row>
+				<col num="1">11</col>
+				<col num="2">Зубков Игорь Валерьевич</col>
+				<col num="3">Зубков</col>
+				<col num="4">Игорь</col>
+				<col num="5">Валерьевич</col>
+				<col num="6">0</col>
+				<col num="7">1970</col>
+				<col num="8">Аппарат полномочного представителя Президента РФ в ЦФО</col>
+				<col num="9">Помощник полномочного представителя Президента РФ</col>
+			</row>
+			<row>
+				<col num="1">12</col>
+				<col num="2">Изотова Анна Владимировна</col>
+				<col num="3">Изотова</col>
+				<col num="4">Анна</col>
+				<col num="5">Владимировна</col>
+				<col num="6">1</col>
+				<col num="7">1976</col>
+				<col num="8">ФСТ России</col>
+				<col num="9">Начальник управления</col>
+			</row>
+			<row>
+				<col num="1">13</col>
+				<col num="2">Караваев Игорь Евгеньевич</col>
+				<col num="3">Караваев</col>
+				<col num="4">Игорь</col>
+				<col num="5">Евгеньевич</col>
+				<col num="6">0</col>
+				<col num="7">1968</col>
+				<col num="8">Минпромторг России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">14</col>
+				<col num="2">Кибовский Александр Владимирович</col>
+				<col num="3">Кибовский</col>
+				<col num="4">Александр</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1973</col>
+				<col num="8">Росохранкультура</col>
+				<col num="9">Руководитель</col>
+			</row>
+			<row>
+				<col num="1">15</col>
+				<col num="2">Ковальчук Борис Юрьевич</col>
+				<col num="3">Ковальчук</col>
+				<col num="4">Борис</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1977</col>
+				<col num="8">Аппарат Правительства РФ</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">16</col>
+				<col num="2">Косачев Константин Иосифович</col>
+				<col num="3">Косачев</col>
+				<col num="4">Константин</col>
+				<col num="5">Иосифович</col>
+				<col num="6">0</col>
+				<col num="7">1962</col>
+				<col num="8">Государственная Дума ФС РФ</col>
+				<col num="9">Председатель комитета</col>
+			</row>
+			<row>
+				<col num="1">17</col>
+				<col num="2">Курбатов Михаил Юрьевич</col>
+				<col num="3">Курбатов</col>
+				<col num="4">Михаил</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1981</col>
+				<col num="8">Минэкономразвития России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">18</col>
+				<col num="2">Мантуров Денис Валентинович</col>
+				<col num="3">Мантуров</col>
+				<col num="4">Денис</col>
+				<col num="5">Валентинович</col>
+				<col num="6">0</col>
+				<col num="7">1969</col>
+				<col num="8">Минпромторг России</col>
+				<col num="9">Заместитель Министра</col>
+			</row>
+			<row>
+				<col num="1">19</col>
+				<col num="2">Минх Гарри Владимирович</col>
+				<col num="3">Минх</col>
+				<col num="4">Гарри</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1959</col>
+				<col num="8">Аппарат Правительства РФ</col>
+				<col num="9">Директор правового департамента</col>
+			</row>
+			<row>
+				<col num="1">20</col>
+				<col num="2">Наумов Станислав Александрович</col>
+				<col num="3">Наумов</col>
+				<col num="4">Станислав</col>
+				<col num="5">Александрович</col>
+				<col num="6">0</col>
+				<col num="7">1972</col>
+				<col num="8">Минпромторг России</col>
+				<col num="9">Статс-секретарь – заместитель Министра</col>
+			</row>
+			<row>
+				<col num="1">21</col>
+				<col num="2">Новак Александр Валентинович</col>
+				<col num="3">Новак</col>
+				<col num="4">Александр</col>
+				<col num="5">Валентинович</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Минфин России</col>
+				<col num="9">Заместитель Министра</col>
+			</row>
+			<row>
+				<col num="1">22</col>
+				<col num="2">Носков Константин Юрьевич</col>
+				<col num="3">Носков</col>
+				<col num="4">Константин</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1978</col>
+				<col num="8">Аппарат Правительства РФ</col>
+				<col num="9">Заместитель директора Департамента</col>
+			</row>
+			<row>
+				<col num="1">23</col>
+				<col num="2">Пепеляева Лиана Витальевна </col>
+				<col num="3">Пепеляева</col>
+				<col num="4">Лиана</col>
+				<col num="5">Витальевна</col>
+				<col num="6">1</col>
+				<col num="7">1965</col>
+				<col num="8">Государственная Дума ФС РФ</col>
+				<col num="9">Заместитель председателя комитета по финансовым рынкам</col>
+			</row>
+			<row>
+				<col num="1">24</col>
+				<col num="2">Ракова Анастасия Владимировна</col>
+				<col num="3">Ракова</col>
+				<col num="4">Анастасия</col>
+				<col num="5">Владимировна</col>
+				<col num="6">1</col>
+				<col num="7">1976</col>
+				<col num="8">Минрегион России</col>
+				<col num="9">Заместитель Министра – статс-секретарь</col>
+			</row>
+			<row>
+				<col num="1">25</col>
+				<col num="2">Решетников Максим Геннадьевич</col>
+				<col num="3">Решетников</col>
+				<col num="4">Максим</col>
+				<col num="5">Геннадьевич</col>
+				<col num="6">0</col>
+				<col num="7">1979</col>
+				<col num="8">Минрегион России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">26</col>
+				<col num="2">Саватюгин Алексей Львович</col>
+				<col num="3">Саватюгин</col>
+				<col num="4">Алексей</col>
+				<col num="5">Львович</col>
+				<col num="6">0</col>
+				<col num="7">1970</col>
+				<col num="8">Минфин России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">27</col>
+				<col num="2">Савельев Олег Генрихович</col>
+				<col num="3">Савельев</col>
+				<col num="4">Олег</col>
+				<col num="5">Генрихович</col>
+				<col num="6">0</col>
+				<col num="7">1965</col>
+				<col num="8">Минэкономразвития России</col>
+				<col num="9">Заместитель Министра</col>
+			</row>
+			<row>
+				<col num="1">28</col>
+				<col num="2">Слепнев Андрей Александрович</col>
+				<col num="3">Слепнев</col>
+				<col num="4">Андрей</col>
+				<col num="5">Александрович</col>
+				<col num="6">0</col>
+				<col num="7">1969</col>
+				<col num="8">Минсельхоз России</col>
+				<col num="9">Заместитель Министра</col>
+			</row>
+			<row>
+				<col num="1">29</col>
+				<col num="2">Токарев Владимир Александрович</col>
+				<col num="3">Токарев</col>
+				<col num="4">Владимир</col>
+				<col num="5">Александрович</col>
+				<col num="6">0</col>
+				<col num="7">1977</col>
+				<col num="8">Росжелдор</col>
+				<col num="9">Заместитель руководителя</col>
+			</row>
+			<row>
+				<col num="1">30</col>
+				<col num="2">Травников Максим Александрович</col>
+				<col num="3">Травников</col>
+				<col num="4">Максим</col>
+				<col num="5">Александрович</col>
+				<col num="6">0</col>
+				<col num="7">1974</col>
+				<col num="8">Минрегион России</col>
+				<col num="9">Заместитель Министра</col>
+			</row>
+			<row>
+				<col num="1">31</col>
+				<col num="2">Трунин Илья Вячеславович</col>
+				<col num="3">Трунин</col>
+				<col num="4">Илья</col>
+				<col num="5">Вячеславович</col>
+				<col num="6">0</col>
+				<col num="7">1976</col>
+				<col num="8">Минфин России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">32</col>
+				<col num="2">Турчак Андрей Анатольевич</col>
+				<col num="3">Турчак</col>
+				<col num="4">Андрей</col>
+				<col num="5">Анатольевич</col>
+				<col num="6">0</col>
+				<col num="7">1975</col>
+				<col num="8">Совет Федерации Федерального Собрания Российской Федерации</col>
+				<col num="9">Заместитель Председателя Комиссии СФ по делам молодежи и туризму</col>
+			</row>
+			<row>
+				<col num="1">33</col>
+				<col num="2">Фомичев Олег Владиславович</col>
+				<col num="3">Фомичев</col>
+				<col num="4">Олег</col>
+				<col num="5">Владиславович</col>
+				<col num="6">0</col>
+				<col num="7">1977</col>
+				<col num="8">Минэкономразвития России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">34</col>
+				<col num="2">Чинилин Павел Юрьевич</col>
+				<col num="3">Чинилин</col>
+				<col num="4">Павел</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Аппарат Правительства РФ</col>
+				<col num="9">Заместитель Директора Департамента</col>
+			</row>
+			<row>
+				<col num="1">35</col>
+				<col num="2">Шадаев Максут Игоревич</col>
+				<col num="3">Шадаев</col>
+				<col num="4">Максут</col>
+				<col num="5">Игоревич</col>
+				<col num="6">0</col>
+				<col num="7">1979</col>
+				<col num="8">Администрация Президента РФ</col>
+				<col num="9">Помощник Руководителя</col>
+			</row>
+			<row>
+				<col num="1">36</col>
+				<col num="2">Шаров Андрей Владимирович</col>
+				<col num="3">Шаров</col>
+				<col num="4">Андрей</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Минэкономразвития России</col>
+				<col num="9">Директор Департамента</col>
+			</row>
+			<row>
+				<col num="1">37</col>
+				<col num="2">Азаров Дмитрий Игоревич</col>
+				<col num="3">Азаров</col>
+				<col num="4">Дмитрий</col>
+				<col num="5">Игоревич</col>
+				<col num="6">0</col>
+				<col num="7">1970</col>
+				<col num="8">Правительство Самарской области </col>
+				<col num="9">Министр природных ресурсов и охраны окружающей среды</col>
+			</row>
+			<row>
+				<col num="1">38</col>
+				<col num="2">Акимов Максим Алексеевич</col>
+				<col num="3">Акимов</col>
+				<col num="4">Максим</col>
+				<col num="5">Алексеевич</col>
+				<col num="6">0</col>
+				<col num="7">1970</col>
+				<col num="8">Администрация Калужской области </col>
+				<col num="9">Вице-губернатор</col>
+			</row>
+			<row>
+				<col num="1">39</col>
+				<col num="2">Александров Алексей Олегович</col>
+				<col num="3">Александров</col>
+				<col num="4">Алексей</col>
+				<col num="5">Олегович</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">Правительство Москвы </col>
+				<col num="9">Префект Центрального административного округа города Москвы</col>
+			</row>
+			<row>
+				<col num="1">40</col>
+				<col num="2">Бровко Анатолий Григорьевич</col>
+				<col num="3">Бровко</col>
+				<col num="4">Анатолий</col>
+				<col num="5">Григорьевич</col>
+				<col num="6">0</col>
+				<col num="7">1966</col>
+				<col num="8">Администрация Волгоградской области </col>
+				<col num="9">Заместитель главы администрации по инвестициям и торговле</col>
+			</row>
+			<row>
+				<col num="1">41</col>
+				<col num="2">Гайзер Вячеслав Михайлович</col>
+				<col num="3">Гайзер</col>
+				<col num="4">Вячеслав</col>
+				<col num="5">Михайлович</col>
+				<col num="6">0</col>
+				<col num="7">1966</col>
+				<col num="8">Правительство Республики Коми</col>
+				<col num="9">Заместитель главы Республики – Министр финансов</col>
+			</row>
+			<row>
+				<col num="1">42</col>
+				<col num="2">Гапликов Сергей Анатольевич</col>
+				<col num="3">Гапликов</col>
+				<col num="4">Сергей</col>
+				<col num="5">Анатольевич</col>
+				<col num="6">0</col>
+				<col num="7">1970</col>
+				<col num="8">Кабинет Министров Чувашской Республики</col>
+				<col num="9">Председатель Кабинета Министров</col>
+			</row>
+			<row>
+				<col num="1">43</col>
+				<col num="2">Ильиных Сергей Евгеньевич </col>
+				<col num="3">Ильиных</col>
+				<col num="4">Сергей</col>
+				<col num="5">Евгеньевич</col>
+				<col num="6">0</col>
+				<col num="7">1975</col>
+				<col num="8">Администрация Томской области </col>
+				<col num="9">Заместитель губернатора по социальной политике</col>
+			</row>
+			<row>
+				<col num="1">44</col>
+				<col num="2">Исмагилов Рашид Фаатович</col>
+				<col num="3">Исмагилов</col>
+				<col num="4">Рашид</col>
+				<col num="5">Фаатович</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">Администрация Ленинградской области </col>
+				<col num="9">Вице-губернатор</col>
+			</row>
+			<row>
+				<col num="1">45</col>
+				<col num="2">Куйвашев Евгений Владимирович</col>
+				<col num="3">Куйвашев</col>
+				<col num="4">Евгений</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Мэрия г.Тюмень</col>
+				<col num="9">Мэр города</col>
+			</row>
+			<row>
+				<col num="1">46</col>
+				<col num="2">Кувшинников Олег Александрович</col>
+				<col num="3">Кувшинников</col>
+				<col num="4">Олег</col>
+				<col num="5">Александрович</col>
+				<col num="6">0</col>
+				<col num="7">1965</col>
+				<col num="8">Мэрия г.Череповец Волгоградской области</col>
+				<col num="9">Мэр города</col>
+			</row>
+			<row>
+				<col num="1">47</col>
+				<col num="2">Кулагин Дмитрий Владимирович</col>
+				<col num="3">Кулагин</col>
+				<col num="4">Дмитрий</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1968</col>
+				<col num="8">Законодательное Собрание Оренбургской области </col>
+				<col num="9">Председатель</col>
+			</row>
+			<row>
+				<col num="1">48</col>
+				<col num="2">Куличенко Вадим Петрович</col>
+				<col num="3">Куличенко</col>
+				<col num="4">Вадим</col>
+				<col num="5">Петрович</col>
+				<col num="6">0</col>
+				<col num="7">1973</col>
+				<col num="8">Правительство Самарской области </col>
+				<col num="9">Заместитель Председателя – Министр здравоохранения и социального развития</col>
+			</row>
+			<row>
+				<col num="1">49</col>
+				<col num="2">Матвеева Елена Юрьевна</col>
+				<col num="3">Матвеева</col>
+				<col num="4">Елена</col>
+				<col num="5">Юрьевна</col>
+				<col num="6">1</col>
+				<col num="7">1966</col>
+				<col num="8">Правительство Калининградской области </col>
+				<col num="9">Министр финансов</col>
+			</row>
+			<row>
+				<col num="1">50</col>
+				<col num="2">Метшин Ильсур Раисович</col>
+				<col num="3">Метшин</col>
+				<col num="4">Ильсур</col>
+				<col num="5">Раисович</col>
+				<col num="6">0</col>
+				<col num="7">1969</col>
+				<col num="8">Администрация г.Казань</col>
+				<col num="9">Мэр города</col>
+			</row>
+			<row>
+				<col num="1">51</col>
+				<col num="2">Мещеряков Терентий Владимирович</col>
+				<col num="3">Мещеряков</col>
+				<col num="4">Терентий</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1974</col>
+				<col num="8">Законодательное Собрание Санкт-Петербурга</col>
+				<col num="9">Депутат</col>
+			</row>
+			<row>
+				<col num="1">52</col>
+				<col num="2">Мискевич Евгений Васильевич</col>
+				<col num="3">Мискевич</col>
+				<col num="4">Евгений</col>
+				<col num="5">Васильевич</col>
+				<col num="6">0</col>
+				<col num="7">1978</col>
+				<col num="8">Правительство Тюменской области </col>
+				<col num="9">Начальник главного управления строительства</col>
+			</row>
+			<row>
+				<col num="1">53</col>
+				<col num="2">Нетеребский Олег Викторович </col>
+				<col num="3">Нетеребский</col>
+				<col num="4">Олег</col>
+				<col num="5">Викторович</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">Правительство г.Москва</col>
+				<col num="9">Руководитель Департамента труда и занятости</col>
+			</row>
+			<row>
+				<col num="1">54</col>
+				<col num="2">Никифоров Николай Анатольевич</col>
+				<col num="3">Никифоров</col>
+				<col num="4">Николай</col>
+				<col num="5">Анатольевич</col>
+				<col num="6">0</col>
+				<col num="7">1982</col>
+				<col num="8">Центр информационных технологий Республики Татарстан </col>
+				<col num="9">Генеральный директор Татарстан</col>
+			</row>
+			<row>
+				<col num="1">55</col>
+				<col num="2">Редин Евгений Владимирович</col>
+				<col num="3">Редин</col>
+				<col num="4">Евгений</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1969</col>
+				<col num="8">Законодательное Собрание Челябинской области</col>
+				<col num="9">Первый заместитель Председателя</col>
+			</row>
+			<row>
+				<col num="1">56</col>
+				<col num="2">Сватковский Дмитрий Валерьевич</col>
+				<col num="3">Сватковский</col>
+				<col num="4">Дмитрий</col>
+				<col num="5">Валерьевич</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Правительство Нижегородской области </col>
+				<col num="9">Министр инвестиционной политики</col>
+			</row>
+			<row>
+				<col num="1">57</col>
+				<col num="2">Соколов Максим Юрьевич</col>
+				<col num="3">Соколов</col>
+				<col num="4">Максим</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1968</col>
+				<col num="8">Правительство Санкт-Петербурга</col>
+				<col num="9">Председатель Комитета по инвестициям и стратегическим проектам</col>
+			</row>
+			<row>
+				<col num="1">58</col>
+				<col num="2">Сухих Валерий Александрович</col>
+				<col num="3">Сухих</col>
+				<col num="4">Валерий</col>
+				<col num="5">Александрович</col>
+				<col num="6">0</col>
+				<col num="7">1965</col>
+				<col num="8">Правительство Пермского края</col>
+				<col num="9">Председатель Правительства</col>
+			</row>
+			<row>
+				<col num="1">59</col>
+				<col num="2">Ярин Андрей Вениаминович</col>
+				<col num="3">Ярин</col>
+				<col num="4">Андрей</col>
+				<col num="5">Вениаминович</col>
+				<col num="6">0</col>
+				<col num="7">1970</col>
+				<col num="8">Правительство Кабардино-Балкарской Республики</col>
+				<col num="9">Председатель Правительства</col>
+			</row>
+			<row>
+				<col num="1">60</col>
+				<col num="2">Акимов Константин Владимирович</col>
+				<col num="3">Акимов</col>
+				<col num="4">Константин</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1969</col>
+				<col num="8">«ЛПК Континенталь Менеджмент» </col>
+				<col num="9">Председатель Совета директоров</col>
+			</row>
+			<row>
+				<col num="1">61</col>
+				<col num="2">Андреев Федор Борисович</col>
+				<col num="3">Андреев</col>
+				<col num="4">Федор</col>
+				<col num="5">Борисович</col>
+				<col num="6">0</col>
+				<col num="7">1966</col>
+				<col num="8">ОАО «Российские железные дороги»</col>
+				<col num="9">Старший вице-президент</col>
+			</row>
+			<row>
+				<col num="1">62</col>
+				<col num="2">Анцев Георгий Викторович</col>
+				<col num="3">Анцев</col>
+				<col num="4">Георгий</col>
+				<col num="5">Викторович</col>
+				<col num="6">0</col>
+				<col num="7">1961</col>
+				<col num="8">ОАО «НПП «Радар ММС» </col>
+				<col num="9">Генеральный директор-главный конструктор</col>
+			</row>
+			<row>
+				<col num="1">63</col>
+				<col num="2">Арутюнов Александр Борисович</col>
+				<col num="3">Арутюнов</col>
+				<col num="4">Александр</col>
+				<col num="5">Борисович</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">ВАО «Интурист»</col>
+				<col num="9">Президент</col>
+			</row>
+			<row>
+				<col num="1">64</col>
+				<col num="2">Баткибеков Саид Белетбекович</col>
+				<col num="3">Баткибеков</col>
+				<col num="4">Саид</col>
+				<col num="5">Белетбекович</col>
+				<col num="6">0</col>
+				<col num="7">1977</col>
+				<col num="8">Компания «Тройка Кэпитал Партнерс Лимитед»</col>
+				<col num="9">Вице-президент</col>
+			</row>
+			<row>
+				<col num="1">65</col>
+				<col num="2">Баумгертнер Владислав Артурович</col>
+				<col num="3">Баумгертнер</col>
+				<col num="4">Владислав</col>
+				<col num="5">Артурович</col>
+				<col num="6">0</col>
+				<col num="7">1972</col>
+				<col num="8">ОАО «Уралкалий»</col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">66</col>
+				<col num="2">Бобровников Борис Леонидович</col>
+				<col num="3">Бобровников</col>
+				<col num="4">Борис</col>
+				<col num="5">Леонидович</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">«Крок Инкорпорейтед» </col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">67</col>
+				<col num="2">Бокарев Андрей Рэмович</col>
+				<col num="3">Бокарев</col>
+				<col num="4">Андрей</col>
+				<col num="5">Рэмович</col>
+				<col num="6">0</col>
+				<col num="7">1966</col>
+				<col num="8">ОАО «УК «Кузбассразрезуголь»</col>
+				<col num="9">Председатель Совета директоров</col>
+			</row>
+			<row>
+				<col num="1">68</col>
+				<col num="2">Бородин Павел Андреевич </col>
+				<col num="3">Бородин</col>
+				<col num="4">Павел</col>
+				<col num="5">Андреевич</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Федеральный фонд содействия развитию экономической стратегии </col>
+				<col num="9">Заместитель гендиректора</col>
+			</row>
+			<row>
+				<col num="1">69</col>
+				<col num="2">Булыгин Александр Станиславович</col>
+				<col num="3">Булыгин</col>
+				<col num="4">Александр</col>
+				<col num="5">Станиславович</col>
+				<col num="6">0</col>
+				<col num="7">1968</col>
+				<col num="8">Объединенная компания «РУСАЛ»</col>
+				<col num="9">Председатель Правления, Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">70</col>
+				<col num="2">Буренин Андрей Викторович</col>
+				<col num="3">Буренин</col>
+				<col num="4">Андрей</col>
+				<col num="5">Викторович</col>
+				<col num="6">0</col>
+				<col num="7">1974</col>
+				<col num="8">АО «Ренова-менеджмент АГ»</col>
+				<col num="9">Финансовый директор</col>
+			</row>
+			<row>
+				<col num="1">71</col>
+				<col num="2">Волож Аркадий Юрьевич</col>
+				<col num="3">Волож</col>
+				<col num="4">Аркадий</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1964</col>
+				<col num="8">Компания ООО «Яндекс» </col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">72</col>
+				<col num="2">Григорьев Александр Валерьевич</col>
+				<col num="3">Григорьев</col>
+				<col num="4">Александр</col>
+				<col num="5">Валерьевич</col>
+				<col num="6">0</col>
+				<col num="7">1963</col>
+				<col num="8">ОСАО «Ингосстрах»</col>
+				<col num="9">Генеральный директор, Председатель Правления</col>
+			</row>
+			<row>
+				<col num="1">73</col>
+				<col num="2">Дергунова Ольга Константиновна</col>
+				<col num="3">Дергунова</col>
+				<col num="4">Ольга</col>
+				<col num="5">Константиновна</col>
+				<col num="6">1</col>
+				<col num="7">1965</col>
+				<col num="8">ОАО Банк ВТБ</col>
+				<col num="9">Член Правления</col>
+			</row>
+			<row>
+				<col num="1">74</col>
+				<col num="2">Дубинский Андрей Юрьевич</col>
+				<col num="3">Дубинский</col>
+				<col num="4">Андрей</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">Группа компаний БДО «Юникон»</col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">75</col>
+				<col num="2">Задорнов Михаил Михайлович</col>
+				<col num="3">Задорнов</col>
+				<col num="4">Михаил</col>
+				<col num="5">Михайлович</col>
+				<col num="6">0</col>
+				<col num="7">1963</col>
+				<col num="8">ЗАО «ВТБ 24»</col>
+				<col num="9">Президент-Председатель Правления</col>
+			</row>
+			<row>
+				<col num="1">76</col>
+				<col num="2">Ивлев Александр Владимирович</col>
+				<col num="3">Ивлев</col>
+				<col num="4">Александр</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1967</col>
+				<col num="8">«Эрнст энд Янг (СНГ) Б.В.»</col>
+				<col num="9">Партнер, член Совета директоров компании в СНГ</col>
+			</row>
+			<row>
+				<col num="1">77</col>
+				<col num="2">Изосимов  Александр Вадимович</col>
+				<col num="3">Изосимов</col>
+				<col num="4">Александр</col>
+				<col num="5">Вадимович</col>
+				<col num="6">0</col>
+				<col num="7">1964</col>
+				<col num="8">ОАО «ВымпелКом»</col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">78</col>
+				<col num="2">Козицин Андрей Анатольевич </col>
+				<col num="3">Козицин</col>
+				<col num="4">Андрей</col>
+				<col num="5">Анатольевич</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">ООО «УГМК – Холдинг» </col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">79</col>
+				<col num="2">Медников Дмитрий Юрьевич</col>
+				<col num="3">Медников</col>
+				<col num="4">Дмитрий</col>
+				<col num="5">Юрьевич</col>
+				<col num="6">0</col>
+				<col num="7">1980</col>
+				<col num="8">Главная редакция ЭСМИ «Российский Информационный канал»  </col>
+				<col num="9">Главный редактор</col>
+			</row>
+			<row>
+				<col num="1">80</col>
+				<col num="2">Меламед Леонид Адольфович</col>
+				<col num="3">Меламед</col>
+				<col num="4">Леонид</col>
+				<col num="5">Адольфович</col>
+				<col num="6">0</col>
+				<col num="7">1967</col>
+				<col num="8">ОАО АФК «Система»</col>
+				<col num="9">Президент</col>
+			</row>
+			<row>
+				<col num="1">81</col>
+				<col num="2">Меньщиков Владислав Владимирович</col>
+				<col num="3">Меньщиков</col>
+				<col num="4">Владислав</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1959</col>
+				<col num="8">ОАО «Концерн ПВО «Алмаз-Антей» </col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">82</col>
+				<col num="2">Мишустин Михаил Владимирович</col>
+				<col num="3">Мишустин</col>
+				<col num="4">Михаил</col>
+				<col num="5">Владимирович</col>
+				<col num="6">0</col>
+				<col num="7">1966</col>
+				<col num="8">UFG Asset Management</col>
+				<col num="9">Президент</col>
+			</row>
+			<row>
+				<col num="1">83</col>
+				<col num="2">Москаленко Алексей Анатольевич</col>
+				<col num="3">Москаленко</col>
+				<col num="4">Алексей</col>
+				<col num="5">Анатольевич</col>
+				<col num="6">0</col>
+				<col num="7">1981</col>
+				<col num="8">ООО «ЛЛК Интернешнл»</col>
+				<col num="9">Зам. начальника Управления правового обеспечения</col>
+			</row>
+			<row>
+				<col num="1">84</col>
+				<col num="2">Перцовский Александр Наумович</col>
+				<col num="3">Перцовский</col>
+				<col num="4">Александр</col>
+				<col num="5">Наумович</col>
+				<col num="6">0</col>
+				<col num="7">1968</col>
+				<col num="8">Инвестиционная компания «Ренессанс капитал»</col>
+				<col num="9">Председатель Правления</col>
+			</row>
+			<row>
+				<col num="1">85</col>
+				<col num="2">Плешакова Ольга Александровна</col>
+				<col num="3">Плешакова</col>
+				<col num="4">Ольга</col>
+				<col num="5">Александровна</col>
+				<col num="6">1</col>
+				<col num="7">1965</col>
+				<col num="8">Авиакомпания «Трансаэро»</col>
+				<col num="9">Генеральный директор</col>
+			</row>
+			<row>
+				<col num="1">86</col>
+				<col num="2">Попова Татьяна Юрьевна</col>
+				<col num="3">Попова</col>
+				<col num="4">Татьяна</col>
+				<col num="5">Юрьевна</col>
+				<col num="6">1</col>
+				<col num="7">1972</col>
+				<col num="8">Государственная корпорация – Фонд содействия реформированию ЖКХ </col>
+				<col num="9">Зам. генерального директора – руководитель Аппарата Фонда</col>
+			</row>
+			<row>
+				<col num="1">87</col>
+				<col num="2">Рашевский Владимир Валерьевич</col>
+				<col num="3">Рашевский</col>
+				<col num="4">Владимир</col>
+				<col num="5">Валерьевич</col>
+				<col num="6">0</col>
+				<col num="7">1973</col>
+				<col num="8">Сибирско-уральская энергетическая компания («СУЭК»)</col>
+				<col num="9">Генеральный директор и Председатель Правления</col>
+			</row>
+			<row>
+				<col num="1">88</col>
+				<col num="2">Хасис Лев Аронович</col>
+				<col num="3">Хасис</col>
+				<col num="4">Лев</col>
+				<col num="5">Аронович</col>
+				<col num="6">0</col>
+				<col num="7">1966</col>
+				<col num="8">X5 Retail Group N.V.</col>
+				<col num="9">Главный исполнительный директор, Председатель Правления</col>
+			</row>
+			<row>
+				<col num="1">89</col>
+				<col num="2">Шахов Олег Федорович</col>
+				<col num="3">Шахов</col>
+				<col num="4">Олег</col>
+				<col num="5">Федорович</col>
+				<col num="6">0</col>
+				<col num="7">1969</col>
+				<col num="8">ЗАО «Центр управленческих, экономических и правовых инициатив «Стратегия»</col>
+				<col num="9">Вице-президент</col>
+			</row>
+			<row>
+				<col num="1">90</col>
+				<col num="2">Юдаева Ксения Валентиновна</col>
+				<col num="3">Юдаева</col>
+				<col num="4">Ксения</col>
+				<col num="5">Валентиновна</col>
+				<col num="6">1</col>
+				<col num="7">1970</col>
+				<col num="8">Сбербанк России</col>
+				<col num="9">Главный экономист</col>
+			</row>
+			<row>
+				<col num="1">91</col>
+				<col num="2">Юрьев Евгений Леонидович</col>
+				<col num="3">Юрьев</col>
+				<col num="4">Евгений</col>
+				<col num="5">Леонидович</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Инвестиционная группа «Атон»</col>
+				<col num="9">Президент</col>
+			</row>
+			<row>
+				<col num="1">92</col>
+				<col num="2">Волков Андрей Евгеньевич</col>
+				<col num="3">Волков</col>
+				<col num="4">Андрей</col>
+				<col num="5">Евгеньевич</col>
+				<col num="6">0</col>
+				<col num="7">1960</col>
+				<col num="8">Московская школа управления «Сколково»</col>
+				<col num="9">Ректор</col>
+			</row>
+			<row>
+				<col num="1">93</col>
+				<col num="2">Вербицкий Владимир Константинович</col>
+				<col num="3">Вербицкий</col>
+				<col num="4">Владимир</col>
+				<col num="5">Константинович</col>
+				<col num="6">0</col>
+				<col num="7">1959</col>
+				<col num="8">Российский институт директоров</col>
+				<col num="9">Первый заместитель директора</col>
+			</row>
+			<row>
+				<col num="1">94</col>
+				<col num="2">Дьякова Елена Григорьевна</col>
+				<col num="3">Дьякова</col>
+				<col num="4">Елена</col>
+				<col num="5">Григорьевна</col>
+				<col num="6">1</col>
+				<col num="7">1965</col>
+				<col num="8">Общественная палата РФ, Институт философии и права Уральского отделения РАН</col>
+				<col num="9">Ведущий научный сотрудник</col>
+			</row>
+			<row>
+				<col num="1">95</col>
+				<col num="2">Гуриев Сергей Маратович</col>
+				<col num="3">Гуриев</col>
+				<col num="4">Сергей</col>
+				<col num="5">Маратович</col>
+				<col num="6">0</col>
+				<col num="7">1971</col>
+				<col num="8">Российская экономическая школа</col>
+				<col num="9">Ректор</col>
+			</row>
+			<row>
+				<col num="1">96</col>
+				<col num="2">Ливанов Дмитрий Викторович</col>
+				<col num="3">Ливанов</col>
+				<col num="4">Дмитрий</col>
+				<col num="5">Викторович</col>
+				<col num="6">0</col>
+				<col num="7">1967</col>
+				<col num="8">Московский институт стали и сплавов</col>
+				<col num="9">Ректор</col>
+			</row>
+			<row>
+				<col num="1">97</col>
+				<col num="2">Матишов Дмитрий Геннадьевич</col>
+				<col num="3">Матишов</col>
+				<col num="4">Дмитрий</col>
+				<col num="5">Геннадьевич</col>
+				<col num="6">0</col>
+				<col num="7">1966</col>
+				<col num="8">Южный научный центр РАН, Южный федеральный университет</col>
+				<col num="9">Заместитель председателя, заведующий кафедрой океанологии</col>
+			</row>
+			<row>
+				<col num="1">98</col>
+				<col num="2">Миронюк Светлана Васильевна</col>
+				<col num="3">Миронюк</col>
+				<col num="4">Светлана</col>
+				<col num="5">Васильевна</col>
+				<col num="6">1</col>
+				<col num="7">1968</col>
+				<col num="8">ФГУП РАМИ РИА «Новости»</col>
+				<col num="9">Главный редактор</col>
+			</row>
+			<row>
+				<col num="1">99</col>
+				<col num="2">Назаров Владимир Станиславович</col>
+				<col num="3">Назаров</col>
+				<col num="4">Владимир</col>
+				<col num="5">Станиславович</col>
+				<col num="6">0</col>
+				<col num="7">1982</col>
+				<col num="8">Институт экономики переходного периода</col>
+				<col num="9">Заведующий лабораторией бюджетного федерализма</col>
+			</row>
+			<row>
+				<col num="1">100</col>
+				<col num="2">Урличич Юрий Матэвич</col>
+				<col num="3">Урличич</col>
+				<col num="4">Юрий</col>
+				<col num="5">Матэвич</col>
+				<col num="6">0</col>
+				<col num="7">1962</col>
+				<col num="8">Российский НИИ космического приборостроения</col>
+				<col num="9">Генеральный директор – генеральный конструктор</col>
+			</row>
+		</table>
+	</data>
+</opendataxml>

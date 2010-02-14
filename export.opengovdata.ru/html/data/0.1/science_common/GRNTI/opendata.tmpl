@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opendata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd">
+	<source id="science_common_GRNI">
+		<name>Государственный рубрикатор научно-технической информации (ГРНТИ)</name>
+		<description>Государственный рубрикатор научно-технической информации (прежнее наименование - Рубрикатор ГАСНТИ) представляет собой универсальную иерархическую классификацию областей знания, принятую для систематизации всего потока научно-технической информации. На основе Рубрикатора построена система локальных (отраслевых, тематических, проблемных) рубрикаторов в органах научно-технической информации.</description>
+		<org>
+			<name>Всероссийский институт научной и технической информации (ВИНИТИ)</name>
+			<description>Институт проводит фундаментальные и прикладные исследования в области информатики (научно-информационной деятельности)</description>
+			<website>http://www2.viniti.ru</website>
+			<address>Россия, 125190, Москва, А-190, ул. Усиевича, д. 20</address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://www2.viniti.ru</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="True"></datatype>
+		<created>2009-07-07T12:28:37Z</created>
+		<updated>2009-07-07T12:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="science_common_GRNTI_table">
+			<cols>
+				<colspec num="1" key="code" unique="true" type="integer">
+					<name>Код</name>
+					<description>Код справочника</description>
+				</colspec>
+				<colspec num="2" key="name" type="string">
+					<name>Наименование</name>
+					<description>Наименование записи</description>
+				</colspec>
+				<colspec num="3" key="level" type="integer">
+					<name>Уровень</name>
+					<description>Уровень кода в иерархии от 0 до 2.</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+		</current>
+	</data>
+</opendata>

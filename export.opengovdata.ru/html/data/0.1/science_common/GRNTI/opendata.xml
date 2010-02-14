@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf8'?>
+<opendata ns0:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance">
+	<source id="science_common_GRNI">
+		<name>Государственный рубрикатор научно-технической информации (ГРНТИ)</name>
+		<description>Государственный рубрикатор научно-технической информации (прежнее наименование - Рубрикатор ГАСНТИ) представляет собой универсальную иерархическую классификацию областей знания, принятую для систематизации всего потока научно-технической информации. На основе Рубрикатора построена система локальных (отраслевых, тематических, проблемных) рубрикаторов в органах научно-технической информации.</description>
+		<org>
+			<name>Всероссийский институт научной и технической информации (ВИНИТИ)</name>
+			<description>Институт проводит фундаментальные и прикладные исследования в области информатики (научно-информационной деятельности)</description>
+			<website>http://www2.viniti.ru</website>
+			<address>Россия, 125190, Москва, А-190, ул. Усиевича, д. 20</address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://www2.viniti.ru</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="True" />
+		<created>2009-07-07T12:28:37Z</created>
+		<updated>2009-07-07T12:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="science_common_GRNTI_table">
+			<cols>
+				<colspec key="code" num="1" type="integer" unique="true">
+					<name>Код</name>
+					<description>Код справочника</description>
+				</colspec>
+				<colspec key="name" num="2" type="string">
+					<name>Наименование</name>
+					<description>Наименование записи</description>
+				</colspec>
+				<colspec key="level" num="3" type="integer">
+					<name>Уровень</name>
+					<description>Уровень кода в иерархии от 0 до 2.</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+		<tableref date_updated="2009-08-31T03:09:10.540728" format="CSV" hash_sha512="dc90209ab9b16375f174ad845415dfb4289c7db64791415fa50a536688ffc3294db0c5c842012ca2bb5f744033efa4e4de812a021c65cf355f966942fd6cedf2" specid="science_common_GRNTI_table" type="full" url="http://export.opengovdata.ru/data/0.1/science_common/GRNTI/science_common_grnti.csv" />
+		<tableref date_updated="2009-08-31T03:09:10.834102" format="TSV" hash_sha512="472ced5c0151f07e643e4b7ac5345f4313369e96535d69091416667dacc38aa26a845a7f877c93e5075c90fe78961e0f45331cb18ab35e58f90ecd1e9177046c" specid="science_common_GRNTI_table" type="full" url="http://export.opengovdata.ru/data/0.1/science_common/GRNTI/science_common_grnti.tsv" />
+		<tableref date_updated="2009-08-31T03:09:32.305397" format="openDataXML" hash_sha512="d12db80fd9247f5cd30e59caf8fade0ec3d63b45b35ea69f677ad1fb483df55da36b5eb2e17ee5414cabc324d9bf3a8513f9cb1d2f072f29f1e4fcc66ae4ff09" specid="science_common_GRNTI_table" type="full" url="http://export.opengovdata.ru/data/0.1/science_common/GRNTI/science_common_grnti.xml" /></current>
+	</data>
+</opendata>

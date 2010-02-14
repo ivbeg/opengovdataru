@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opendata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd">
+	<source id="kremlin_ru_KadryReserv">
+		<name>Кадровый резерв при президенте России</name>
+		<description>Кадровый резерв при президенте России</description>
+		<org>
+			<name>Управление пресс-службы и информации Президента</name>
+			<description>Управление пресс-службы и информации Президента Российской Федерации</description>
+			<website>http://www.kremlin.ru</website>
+			<address>
+			</address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://www.kremlin.ru/images/rezerv.doc</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="False" />
+		<created>2009-04-22T16:28:37Z</created>
+		<updated>2009-04-22T16:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="kremlin_ru_KadryReserv_table">
+			<cols>
+				<colspec num="1" key="code" unique="true" type="integer">
+					<name>Номер</name>
+					<description>Номер персоны в списке</description>
+				</colspec>
+				<colspec num="2" key="fullname" type="string">
+					<name>ФИО</name>
+					<description>Фамилия, имя, отчество</description>
+				</colspec>
+				<colspec num="3" key="surname" type="string">
+					<name>Фамилия</name>
+					<description>Фамилия персоны</description>
+				</colspec>
+				<colspec num="4" key="name" type="string">
+					<name>Имя</name>
+					<description>Имя персоны</description>
+				</colspec>
+				<colspec num="5" key="middlename" type="string">
+					<name>Отчество</name>
+					<description>Отчество персоны</description>
+				</colspec>
+				<colspec num="6" key="gender" type="integer">
+					<name>Пол</name>
+					<description>0 - мужской пол, 1 - женский</description>
+				</colspec>
+				<colspec num="7" key="bornYear" type="integer">
+					<name>Год рождения</name>
+					<description>Год рождения от рождества Христова</description>
+				</colspec>
+				<colspec num="8" key="organization" type="string">
+					<name>Организация</name>
+					<description>Наименование организации</description>
+				</colspec>
+				<colspec num="9" key="position" type="string">
+					<name>Должность</name>
+					<description>Должность персоны в организации</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+			<tableref type="full" specid="ru_KremlinKadryReserv_table" format="openDataXML" url="http://export.opengovdata.ru/data/0.1/kremlin.ru/KadryReserv/ru_KremlinKadry.xml" hash_sha512="fc2a4050b64325c27003fa81a18a13d21d3c30b2dcdf949ec32a9ff6a53e9f0b87bf6d331f7cb9a88d55c7fc68db4a4fd445a5452bcc24f963f1da73cb8bca16" date_updated="2009-04-22T16:28:37Z" />
+			<tableref type="full" specid="ru_KremlinKadryReserv_table" format="CSV" url="http://export.opengovdata.ru/data/0.1/kremlin.ru/KadryReserv/ru_KremlinKadry.csv" hash_sha512="1da3706e3839cd3f5e27e0d36280ac10fa4a397e9a2d209229fd59b0487c94d1fe33f41f26c8bfe15760b38f96d3c6969c76920063882e37e65b1073cfa8f7e1" date_updated="2009-04-22T16:28:37Z" />
+			<tableref type="full" specid="ru_KremlinKadryReserv_table" format="TSV" url="http://export.opengovdata.ru/data/0.1/kremlin.ru/KadryReserv/ru_KremlinKadry.tsv" hash_sha512="37f8be0ab330cc4fc8ab79e80f9125dbba3a65f9c1cf15a3ab453ad2e72efbe1ff585d0a2385c93997bbdd20de258fe57c3963a5e182a574378efabc9b89b2be" date_updated="2009-04-22T16:28:37Z" />
+		</current>
+	</data>
+</opendata>

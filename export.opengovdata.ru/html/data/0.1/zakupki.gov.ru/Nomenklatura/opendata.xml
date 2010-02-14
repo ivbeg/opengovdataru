@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf8'?>
+<opendata ns0:noNamespaceSchemaLocation="http://schema.opengovdata.ru/0.1/opendata.xsd" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance">
+	<source id="zakupki_gov_ru_Nomenklatura">
+		<name>Структурированная номенклатура продукции для государственных и муниципальных нужд</name>
+		<description>Структурированная номенклатура продукции для государственных и муниципальных нужд.</description>
+		<org>
+			<name>Минэкономразвития</name>
+			<description>Министерство Экономического развития Российской Федерации</description>
+			<website>http://www.economy.gov.ru/</website>
+			<address>125993, ГСП-3, Москва, А-47, 1-я Тверская-Ямская ул., д.1,3</address>
+		</org>
+		<language>ru-RU</language>
+		<location>http://www.zakupki.gov.ru/Default.aspx?link=21</location>
+	</source>
+	<datainfo>
+		<datatype is_updatable="True" />
+		<created>2009-08-30T12:28:37Z</created>
+		<updated>2009-08-30T12:28:37Z</updated>
+		<preparedBy>
+			<author>Ivan Begtin</author>
+			<authorWebsite>http://ivan.begtin.name</authorWebsite>
+		</preparedBy>
+	</datainfo>
+	<specs>
+		<tablespec id="zakupki_gov_ru_Nomenklatura_table">
+			<cols>
+				<colspec key="code" num="1" type="string" unique="true">
+					<name>Код</name>
+					<description>Код структурированной номенклатуры</description>
+				</colspec>
+				<colspec key="measure" num="2" type="string">
+					<name>Единицы измерений</name>
+					<description>Единицы измерний по ОКЕИ</description>
+				</colspec>
+				<colspec key="name" num="3" type="string">
+					<name>Наименование</name>
+					<description>Наименование записи</description>
+				</colspec>
+				<colspec key="level" num="4" type="integer">
+					<name>Уровень</name>
+					<description>Уровень кода в иерархии от 1 до 7.</description>
+				</colspec>
+				<colspec key="parent" num="5" type="string">
+					<name>Код вышестоящей записи</name>
+					<description>Код вышестоящей записи</description>
+				</colspec>
+				<colspec key="type" num="6" type="string">
+					<name>Признак типа записи</name>
+					<description>G - для товаров, R - для работ и S - для услуг</description>
+				</colspec>
+			</cols>
+		</tablespec>
+	</specs>
+	<data>
+		<current>
+		<tableref date_updated="2009-08-31T04:37:54.273239" format="CSV" hash_sha512="3aa466ec66b480855386e457149285ef74a8387ee2f93e4e12c915dc4d7b996ffa2a349102ec4110a010de7d838719a6c743287559282856555029ced10e6e67" specid="zakupki_gov_ru_Nomenklatura_table" type="full" url="http://export.opengovdata.ru/data/0.1/zakupki.gov.ru/Nomenklatura/zakupki_gov_ru_Nomenklatura.csv" /><tableref date_updated="2009-08-31T04:37:54.897927" format="TSV" hash_sha512="45fc80d906442c5812c70c4133fa57e9fd583ce517061620524165801292993ab004526abcdf4b980d125fd6b77b75bb7bfd057532d36c1fa26780018dffed39" specid="zakupki_gov_ru_Nomenklatura_table" type="full" url="http://export.opengovdata.ru/data/0.1/zakupki.gov.ru/Nomenklatura/zakupki_gov_ru_Nomenklatura.tsv" /><tableref date_updated="2009-08-31T04:38:30.121029" format="openDataXML" hash_sha512="26137855adc86117ac9c72e495ae986d47fee097124bcc0040c64c0ab09b41135cd1e990be5cd8d4c9196e6f27362f4a25e697e380add541f28c445ffa8a869e" specid="zakupki_gov_ru_Nomenklatura_table" type="full" url="http://export.opengovdata.ru/data/0.1/zakupki.gov.ru/Nomenklatura/zakupki_gov_ru_Nomenklatura.xml" /></current>
+	</data>
+</opendata>
