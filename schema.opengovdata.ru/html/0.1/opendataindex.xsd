@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="opendataindex">
+        <xs:annotation>
+            <xs:documentation>Корневой элемент индекса открытых данных.
+Общая структура opendataindex аналогична структуре файлов sitemap index
+</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="opendata">
+                    <xs:annotation>
+                        <xs:documentation>Открытые данные - включает ссылку на массив данных и дату его изменения</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="loc" type="xs:string">
+                                <xs:annotation>
+                                    <xs:documentation>Абсолютная ссылка на описание массива данных</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="lastmod" type="xs:dateTime">
+                                <xs:annotation>
+                                    <xs:documentation>Дата последнего изменения</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

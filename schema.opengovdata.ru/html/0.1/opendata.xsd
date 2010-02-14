@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML Studio - FREE Community Edition 7.1.0.1135 (http://www.liquid-technologies.com)-->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified"
+  elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="opendata">
+    <xs:annotation>
+      <xs:documentation>Корневой тэг спецификации открытых данных</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="1" name="source">
+          <xs:annotation>
+            <xs:documentation>Описание источника данных</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="1" name="name" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation xml:lang="ru">Наименование источника информации</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element minOccurs="1" maxOccurs="1" name="description" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>Подробное описание источника данных</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element minOccurs="1" maxOccurs="1" name="org">
+                <xs:annotation>
+                  <xs:documentation>Информация об организации ведующей данный массив данных</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="1" name="name" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Наименование ответственной организации</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1" maxOccurs="1" name="description" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Описание организации
+</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1" maxOccurs="1" name="website" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Веб-сайт организации ведущей данный источник информации</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1" maxOccurs="1" name="address" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Юридический адрес местонахождения организации ведущей данный источник данных</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="language" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>Язык на котором представлена информация в источнике данных</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element minOccurs="0" name="location" type="xs:string">
+                <xs:annotation>
+                  <xs:documentation>веб-ссылка на источник данных если он есть. Может ссылаться на http и ftp ресурсы</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required">
+              <xs:annotation>
+                <xs:documentation xml:lang="ru">Уникальный идентификатор источника информации</xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="datainfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="datatype">
+                <xs:annotation>
+                  <xs:documentation>Информация о типе массива данных</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:attribute name="is_updatable" type="xs:string" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Флаг отмечаемый в True если источник данных не является статическим и пополняется новой информацией и в False если он является статическим</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="1" maxOccurs="1" name="created" type="xs:dateTime">
+                <xs:annotation>
+                  <xs:documentation>Дата создания массива данных</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element minOccurs="1" maxOccurs="1" name="updated" type="xs:dateTime">
+                <xs:annotation>
+                  <xs:documentation>Дата последнего обновления источника данных</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="1" name="preparedBy">
+                <xs:annotation>
+                  <xs:documentation>Информация о человеке подготовившем материалы для данного источника информации</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="1" name="author" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>ФИО автора </xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="1" name="authorWebsite" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>Сайт автора (если есть)</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="specs">
+          <xs:annotation>
+            <xs:documentation>Спецификации и описание структуры данных из источника</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="specref">
+                <xs:annotation>
+                  <xs:documentation>Сслылка на описание спецификации во внешнем файле</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Идентификатор спецификации</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="url" type="xs:string" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Веб-ссылка на документ спецификации</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="isSpecial" type="xs:boolean" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Флаг того представлена ли спецификация в специальном формате. Например, в виде простого описания</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="tablespec">
+                <xs:annotation>
+                  <xs:documentation>Спецификация табличных данных</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="cols">
+                      <xs:annotation>
+                        <xs:documentation>Перечень спецификаций столбцов</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="colspec">
+                            <xs:annotation>
+                              <xs:documentation>Спецификация столбца данных</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="name" type="xs:string">
+                                  <xs:annotation>
+                                    <xs:documentation>Название столбца</xs:documentation>
+                                  </xs:annotation>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="description" type="xs:string">
+                                  <xs:annotation>
+                                    <xs:documentation>Описание столбца</xs:documentation>
+                                  </xs:annotation>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="num" type="xs:unsignedByte" use="optional">
+                                <xs:annotation>
+                                  <xs:documentation>Номер столбца от начала ряда в таблице</xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                              <xs:attribute name="key" type="xs:string" use="optional">
+                                <xs:annotation>
+                                  <xs:documentation>Уникальный ключ, идентификатор данного столбца</xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                              <xs:attribute name="unique" type="xs:boolean" use="optional">
+                                <xs:annotation>
+                                  <xs:documentation>Если установлен в True, то данные в столбце являеются уникальными в рамках всей таблицы</xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                              <xs:attribute name="type" type="xs:string" use="optional">
+                                <xs:annotation>
+                                  <xs:documentation>Тип данных в столбце. Может принимать значения:
+1. string - строка
+2. integer - число
+3. url - ссылка на внешний ресурс
+4. date - дата в формате ISO:  YYYY-MM-DD
+5. datetime - дата и время в формате ISO: YYYY-MM-DD HH:MM:SS</xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Идентификатор спецификации</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="data">
+          <xs:annotation>
+            <xs:documentation>Открытые данные</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="current">
+                <xs:annotation>
+                  <xs:documentation>Текущие данные</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="table">
+                      <xs:annotation>
+                        <xs:documentation>Таблица с  данными</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="row">
+                            <xs:annotation>
+                              <xs:documentation>Ряд - запись в таблице</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="col">
+                                  <xs:annotation>
+                                    <xs:documentation>Столбец в записи таблицы</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="num" type="xs:unsignedByte"
+                                          use="required">
+                                          <xs:annotation>
+                                            <xs:documentation>Номер столбца в записи - уникален в пределах одной записи</xs:documentation>
+                                          </xs:annotation>
+                                        </xs:attribute>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="specid" type="xs:string" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Идентификатор спецификации</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="type" type="xs:string" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Тип таблицы</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="date_updated" type="xs:dateTime" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Дата последнего обновления</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="tableref">
+                      <xs:annotation>
+                        <xs:documentation>Ссылка на внешний файл таблицы с данными</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:attribute name="type" type="xs:string" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Тип таблицы - может принимать одно из значений:
+1. full - таблица со всеми данными
+2. initial - начальные данные на которые далее накладываются все обновления. Должен обладать updateid = 0
+2. update - обновления к начальным данным которые обладают updateid инкрементально возрастающим от обновления к обновлению</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="specid" type="xs:string" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Идентификатор спецификации данных</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="format" type="xs:string" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Формат данных в таблице. Может быть одним из значений:
+1. CSV
+2. TSV
+3. DBF
+4. XML</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="url" type="xs:string" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Ссылка на внешний файл с данными в указанном формате</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="hash_sha512" type="xs:string" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Хэш внешнего файла рассчитанный по алгоритму SHA-512</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="date_updated" type="xs:dateTime" use="required">
+                          <xs:annotation>
+                            <xs:documentation>Дата последнего обновления</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="updateid" type="xs:unsignedLong" use="optional">
+                          <xs:annotation>
+                            <xs:documentation>Идентификатор обновления если тип таблицы update, то это инкрементальное число начинающееся от 1.
+Если тип таблицы initial, то updateid всегда равен 0
+Для таблиц типа full - не используется</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
