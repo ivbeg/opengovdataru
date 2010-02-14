@@ -1,0 +1,91 @@
+{% extends "base2cols.html" %}
+{% load main_menu %}
+{% block menu %}{% main_menu 'sources'%}{% endblock %}
+{% block title %}OpenGovData.Ru. {{object.name}}{% endblock %}
+{% block col1 %}
+<h2>{{object.name}}</h2>
+<!-- About this dataset   --> 
+<p id="descript"> 
+    <h3 class="body-section-title" id="about">Об источнике данных</h3> 
+    <p>{{object.about_txt}}</p>
+</p>
+
+<p id="tagsdesc"> 
+    <h3 class="body-section-title" id="tags">Тэги</h3> 
+    <p>{% for f in object.tags %}<span style="margin: 4px"><a href="#">{{f.tag.name}}</a></span>{% endfor %}</p>
+    {% comment %}
+    <p>{% for f in object.tags %}<span style="margin: 4px"><a href="/tags/{{f.tag.name}}/sources/">{{f.tag.name}}</a></span>{% endfor %}</p>
+    {% endcomment %}
+</p>
+
+<p id="urlsdesc"> 
+	<h3 class="body-section-title" id="formats">Ссылки</h3> 
+	<p>
+	<span style="font-style:bold">Описание:</span><br/>&nbsp;<a href="{{object.description_link}}">{{object.description_link}}</a><br/>
+	<span style="font-style:bold">Постоянная ссылка:</span><br/>&nbsp;<a href="{{object.permanent_link}}">{{object.permanent_link}}</a>
+	</p>
+</p>
+
+
+<p id="typedesc"> 
+	<h3 class="body-section-title" id="datatypes">Тип источника информации</h3> 
+	<p>{% for f in object.datatype.values %}<span style="margin-left:4px">{{f.name}}</span>{% endfor %}
+	</p>
+</p>
+
+<p id="formatsdesc"> 
+	<h3 class="body-section-title" id="formats">Форматы</h3> 
+	<p>{% for f in object.formats.values %}<span style="margin-left:4px">{{f.name}}</span>{% endfor %}
+	</p>
+</p>
+
+<p id="langdesc"> 
+	<h3 class="body-section-title" id="language">Язык</h3> 
+	<p>{{object.language}}</p>
+</p>
+
+{% if object.organization %}
+<p id="orgdesc"> 
+	<h3 class="body-section-title" id="language">Ответственная организация</h3> 
+	<p>{{object.organization.name}} (<a href="{{object.organization.website}}">{{object.organization.website}}</a>)</p>
+	<p>{{object.organization.description}}</p>
+</p>
+{% endif %}
+<p id="copydesc"> 
+    <h3 class="body-section-title" id="copyright_txt">Копирайт/Условия использования</h3> 
+    <p>{% if object.copyright_txt %}{{object.copyright_txt}}{%else%}Неизвестно.{% endif %}</p>
+</p>
+
+<p id="datesdesc"> 
+    <h3 class="body-section-title" id="copyright_txt">Даты</h3> 
+    <p>
+	<span style="font-style:bold">Дата внесения:</span><span style="margin-left:1em;">{{object.date_created}}</span><br/>
+	<span style="font-style:bold">Дата обновления:</span><span style="margin-left:1em;">{{object.date_updated}}</span>
+    </p>
+</p>
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/opengovdataru/embed.js"></script><noscript><a href="http://opengovdataru.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+{% endblock %}
+{% block endpage %}
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+		var query = '?';
+			for(var i = 0; i < links.length; i++) {
+				if(links[i].href.indexOf('#disqus_thread') >= 0) {
+						query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+							}
+								}
+									document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/opengovdataru/get_num_replies.js' + query + '"></' + 'script>');
+									})();
+									//]]>
+									</script>
+{% endblock %}
+{% block col3 %}
+<h3>Навигация</h3>
+<p><a href="/sources/">вернуться к списку источников данных</a></p>
+<h3>Помочь проекту</h3>
+<p>Вы можете принять участие в проекта присоединяясь к <a href="http://groups.google.com/group/opengovdataru">сообществу проекта</a>.</p>
+
+{% endblock %}

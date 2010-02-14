@@ -1,0 +1,24 @@
+{% extends "base2cols.html" %}
+{% load digg_paginator %}
+{% load main_menu %}
+{% block menu %}{% main_menu 'laws'%}{% endblock %}
+{% block title %}OpenGovData.ru. Документы{% endblock %}
+
+{% block col1 %}
+<h2>Законодательные и нормативные акты</h2>
+<table border="0" cellpadding="2px" summary="List of "> 
+<thead><tr><th scope="col">Название</th><th scope="col">Вид документа</th><th scope="col">Страна/Регион</th></tr></thead>  
+<tbody>
+<tr>
+<td><h4><a href="/files/laws/8fz.pdf">Федеральный закон Российской Федерации от 9 февраля 2009 г. N8-ФЗ "Об обеспечении доступа к информации о деятельности государственных органов и органов местного самоуправления"</a></h4>
+</td>
+<td style="width: 8em;">Федеральный закон</td>             
+<td style="width: 8em;">Россия</td>             
+</tr>
+</tbody>
+</table>
+{% endblock %}
+{% block col3 %}
+<h2>О разделе</h2>
+<p>В данном разделе собраны законодательные и нормативные акты по раскрытию информации государственными органами власти</p>
+{% endblock %}

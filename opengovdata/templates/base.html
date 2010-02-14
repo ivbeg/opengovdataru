@@ -1,0 +1,125 @@
+{% load main_menu %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<title>{% block title %}OpenGovData.ru{% endblock %}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!-- (en) Add your meta data here -->
+<!-- (de) Fuegen Sie hier ihre Meta-Daten ein -->
+<link href="/css/layout_2col_standard.css" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 7]>
+<link href="css/patches/patch_3col_standard.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript">
+var userflyHost = (("https:" == document.location.protocol) ? "https://secure.userfly.com" : "http://asset.userfly.com");
+document.write(unescape("%3Cscript src='" + userflyHost + "/users/29279/userfly.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</head>
+<body>
+<div id="header">
+  <div class="page_margins">
+    <div class="page">
+      <div id="topnav">
+        <!-- start: skip link navigation -->
+        <a class="skip" href="#navigation" title="skip link">skip to navigation</a><span class="hideme">.</span>
+        <a class="skip" href="#content" title="skip link">skip to content</a><span class="hideme">.</span>
+        <!-- end: skip link navigation -->
+        <span><a href="/account/signin/">Войти</a> | <a href="/about/">О проекте</a></span></div>
+      <h1>{% block headtitle %}OpenGovData.Ru <em>&laquo;Государство и его информация&raquo;</em>{% endblock %}</h1>
+	  
+      <span>{% block descrtitle%}Об информации раскрываемой государством &#8226; Критерии, требования, форматы.</span>{% endblock %}</div>
+  </div>
+</div>
+
+<!-- begin: main navigation #nav -->
+<div id="nav">
+  <div class="page_margins">
+    <div class="page">
+      <!-- skiplink anchor: navigation -->
+      <a id="navigation" name="navigation"></a>
+      {% block menu %}
+      {% main_menu 'home' %}
+      {% endblock %}
+    </div>
+  </div>
+</div>
+<!-- end: main navigation -->
+
+<!-- begin: main content area #main -->
+<div id="main">
+  <div class="page_margins">
+    <div class="page">
+      <!-- begin: #col1 - first float column -->
+      <div id="col1">
+        <div id="col1_content" class="clearfix">
+    	{% block col1 %}
+                                  <div class="info">
+          <h2>Column  #col2</h2>
+          <p>Integer condimentum, justo a venenatis vulputate, enim pede porttitor eros, non   pretium lorem orci id tortor. Nulla a ligula. Mauris nulla arcu, luctus vel,   consequat non, luctus eu, nisi. Mauris volutpat, nunc eget pretium blandit,   ligula quam commodo nisl, ac fermentum nibh pede et nulla. In condimentum   bibendum nisi. Vestibulum risus. </p>
+          <p>Nullam placerat varius nibh. Quisque tellus   sapien, placerat sed, aliquam sit amet, scelerisque sit amet, nisi. Pellentesque   eget leo vitae felis laoreet dictum. Duis pellentesque porttitor sapien. Fusce   leo. Nulla leo. Donec mattis, justo nec gravida euismod, massa mi posuere   mauris.</p>
+                                        </div>
+        {% endblock %}                                
+        </div>
+      </div>
+      <!-- end: #col1 -->
+      <!-- begin: #col3 static column -->
+      <div id="col3">
+        <div id="col3_content" class="clearfix"> <a id="content" name="content"></a>
+    	{% block col3 %}
+          <!-- skiplink anchor: Content -->
+          <h2>Column  #col3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam malesuada   suscipit pede. Nullam ipsum lacus, varius vel, nonummy in, consequat ut, neque.   Vivamus viverra. Duis dolor arcu, lacinia sit amet, sollicitudin sed, aliquet   vel, quam. Pellentesque molestie laoreet tortor. Aenean quam. Pellentesque magna   metus.</p>
+          <blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam malesuada   suscipit pede. Nullam ipsum lacus, varius vel, nonummy in, consequat ut, neque.   Vivamus viverra. Duis dolor arcu, lacinia sit amet, sollicitudin sed, aliquet   vel, quam. Pellentesque molestie laoreet tortor. Aenean quam. Pellentesque magna   metus, venenatis sit amet, congue nec, dictum in, est. Aliquam nibh. Integer   congue nisl in mauris. Ut risus diam, ornare eget, interdum id, tincidunt at,   eros.</p>
+          </blockquote>
+          <p>Nulla vitae mauris. Phasellus vel ligula quis dolor bibendum egestas. Duis a   massa ut orci varius placerat. Sed leo nulla, tempor nec, commodo in, fringilla   vel, nibh. Cras nibh. Pellentesque venenatis felis. Cum sociis natoque penatibus   et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum fringilla   gravida nunc. Mauris neque. Cras gravida metus eget sapien. Sed faucibus, turpis   ut pretium hendrerit, turpis mauris scelerisque tellus, vel convallis metus   massa in neque.</p>
+	{% endblock %}          
+        </div>
+        <div id="ie_clearing">&nbsp;</div>
+        <!-- End: IE Column Clearing -->
+      </div>
+      <!-- end: #col3 -->
+    </div>
+  </div>
+</div>
+<!-- end: #main -->
+
+<!-- begin: #footer -->
+<div id="footer">
+  <div class="page_margins">
+    <div class="page">
+          <p> 
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Creative Commons License" style="border: medium none ;" height="31" width="88"></a> 
+	    За исключением мест <a class="subfoot" href="http://creativecommons.org/policies#license">отмеченных отдельно</a>, материалы этого сайта<br/>доступны под лицензией <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" class="subfoot">Creative Commons Attribution 3.0 License</a> 
+         </p>     
+	<div>Layout based on <a href="http://www.yaml.de">YAML</a></div> 
+<!-- Piwik -->
+<a href="http://piwik.org" title="Web analytics" onclick="window.open(this.href);return(false);">
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.skyur.ru/stats/" : "http://www.skyur.ru/stats/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+piwik_action_name = '';
+piwik_idsite = 4;
+piwik_url = pkBaseURL + "piwik.php";
+piwik_log(piwik_action_name, piwik_idsite, piwik_url);
+</script>
+<object><noscript><p>Web analytics <img src="http://www.skyur.ru/stats/piwik.php?idsite=4" style="border:0" alt=""/></p></noscript></object></a>
+<!-- End Piwik Tag -->	
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-597974-11");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+    </div>
+  </div>
+</div>
+<!-- end: #footer -->
+
+</body>
+</html>

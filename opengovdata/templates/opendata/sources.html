@@ -1,0 +1,63 @@
+{% extends "base2cols.html" %}
+{% load digg_paginator %}
+{% load main_menu %}
+{% block menu %}{% main_menu 'sources'%}{% endblock %}
+{% block title %}OpenGovData.Ru. Источники информации{% endblock %}
+{% block col1 %}
+<form id='searchform' name='searchform' action="/sources/"> 
+<input type='text' size='80' width="400" name='q' id='q' value='{{q}}' placeholder='текст для поиска'/>
+<br/>
+<label>Организация</label><br/>
+<select name="org"> 
+<option {% if current_org %}{% else %}selected{% endif %} value="-1">Все организации</option>
+{% for obj in orgs %}
+<option {% ifequal obj.id current_org %}selected{% endifequal %} value="{{obj.id}}">{{obj.name}}</option>
+{% endfor %}
+</select>
+<br/>
+<label>Тип источника информации</label><br/>
+<select name="type"> 
+<option {% if current_type %}{% else %}selected{% endif %} value="-1">Все типы</option>
+{% for obj in datatypes %}
+<option {% ifequal obj.id current_type %}selected{% endifequal %} value="{{obj.id}}">{{obj.name}}</option>
+{% endfor %}
+</select>
+<br/>
+<label>Форматы данных</label><br/>
+<select name="format"> 
+<option {% if current_format %}{% else %}selected{% endif %} value="-1">Все форматы</option>
+{% for obj in formats %}
+<option {% ifequal obj.id current_format %}selected{% endifequal %} value="{{obj.id}}">{{obj.name}}</option>
+{% endfor %}
+</select><input id='submit_btn' type='submit' value='Найти' class="btn blue" style='width:100px; margin-left:0.2em'/> 
+</form> 
+<br/>
+<h2>Источники информации (всего {{total}})<span style="float:right"><a href="/sources/rss/"><img src="/static/img/rss.png"/></a></span></h2>
+<table border="0" cellpadding="2px" summary="List of "> 
+<thead><tr><th scope="col">Название</th><th scope="col">Тип источника</th><th scope="col">Форматы</th></tr></thead>  
+<tbody>
+{% for item in object_list%}
+<tr>
+<td><h4><a href="/source/{{item.id}}/">{{item.name}}</a></h4>
+<div>{{item.about_txt}}</div><br/>
+
+<span>Ответственная организация: {% if item.organization %}{{item.organization.name}} (<a href="{{item.organization.website}}">{{item.organization.website}}){%else %}Неизвестна{%endif%}</span>
+
+</td>
+<td style="width: 8em;">{% for f in item.datatype.values %}{{f.name}}<br/>{% endfor %}</td>             
+<td style="width: 8em;">{% for f in item.formats.values %}{{f.name}}<br/>{% endfor %}</td>             
+</tr>
+{% endfor %}
+</tbody>
+</table>
+{% digg_paginator %}
+
+{% endblock %}
+{% block col3 %}
+<h2>О разделе</h2>
+<p>В данном разделе собраны ссылки на имеющиеся в открытом доступе в сети массивы данных раскрываемые государством.</p>
+<h2>Добавление источников</h2>
+<p>Если Вы знаете какой-либо открытый источник информации отсутствующий в списке, то Вы можете <a href="http://spreadsheets.google.com/viewform?formkey=cGljVXlOaHVXSHA5TlpCMW1yUG40UUE6MA..">заполнить форму</a> присылайте информацию о нём на <a href="mailto:ibegtin@gmail.com">ibegtin@gmail.com</a><br/><br/>
+
+</p>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "base3cols.html" %}
+{% load digg_paginator %}
+
+{% block title %}{% endblock %}
+{% block col1 %}
+<h2>Новости<span style="float:right"><a href="/news/rss/"><img src="/static/img/rss.png"/></a></span></h2>
+<p>
+{% for item in news%}
+<div class="news">
+<span>{{item.pubdate}}</span><br/>
+<h4><a href="/news/{{item.id}}/">{{item.title}}</a></h4>
+<div>{{item.body|safe}}</div><br/>
+</td>
+
+</div>
+{% endfor %}
+<a href="/news/">все новости</a>
+</p>
+{% comment %}
+<h2>Статистика</h2>
+<p>
+Всего источников информации: {{stats.sources_count}}<br/>
+Всего открытых данных: {{stats.opendata_count}}<br/>
+</p>         
+{% endcomment %}                     
+{% endblock %}
+
+{% block col2 %}
+<h2>Рекомендуемые сайты</h2>
+<p>
+<a href="http://groups.google.com/group/opengovdataru">Сообщество opengovdata.ru в Google</a> - в сообществе можно обсудить и принять участие в наполнении OpenGovData.ru данными.
+</p>
+<p>
+<p>
+<a href="http://www.mosclassific.ru">Mosclassific.ru</a> - Официальный портал службы ведения общегородских классификаторов города Москвы.
+</p>
+<p>
+<a href="http://gov-gov.ru">Gov-gov.ru</a> - блог государственных сайтах и государственных услугах в Интернете.
+</p>
+<br/>
+<script src="http://odnaknopka.ru/ok2.js" type="text/javascript"></script>
+{% endblock %}
+
+
+{% block col3 %}
+<h2>О Проекте</h2>
+<p><b>OpenGovData.ru</b> - это некоммерческий проект посвящённый доступности информации раскрываемой государством для его граждан. Не секрет что очень часто, несмотря на требуемую законодательством и заявляемую доступность информации, на самом деле найти её сложно или же способы её публикации в сети столь неудобны что публикуемыми материалами пользоваться невозможно.  <br/><a href="/about/">подробнее</a> </p>
+<h2>Последние источники инфомации<span style="float:right"><a href="/sources/rss/"><img src="/static/img/rss.png"/></a></span></h2>
+<table border="0" cellpadding="2px" summary="List of ">
+<thead><tr><th scope="col">Название</th><th scope="col">Обновлён</th></tr></thead>
+<tbody>
+{% for item in sources %}
+<tr>
+<td><h4><a href="/source/{{item.id}}/">{{item.name}}</a></h4>
+<div>{{item.about_txt}}</div><br/>
+
+</td>
+<td style="width: 8em;">{{item.date_updated}}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends "base2cols.html" %}
+{% load main_menu %}
+{% block menu %}{% main_menu 'laws'%}{% endblock %}
+{% block title %}OpenGovData.Ru. {{object.name}}{% endblock %}
+{% block col1 %}
+<h2>{{object.name}}</h2>
+<!-- About this dataset   --> 
+<p id="descript"> 
+    <h3 class="body-section-title" id="about">Описание</h3> 
+    <p>{{object.description}}</p>
+    <span style="font-style:bold">Дата публикации:</span><span style="margin-left:1em;">{{object.date_published}}</span>
+</p>
+
+
+<p id="urlsdesc"> 
+	<h3 class="body-section-title" id="formats">Ссылки</h3> 
+	<p>
+	<span style="font-style:bold">Cкачать документ</span>&nbsp;(<a href="/{{object.file.url}}">{{object.file.url}}</a>)<br/>
+	{% if object.url %}
+	<span style="font-style:bold">Оригинальная ссылка</span>&nbsp;(<a href="{{object.url}}">{{object.url}}</a>)<br/>
+	{% endif %}
+	</p>
+</p>
+
+
+<p id="typedesc"> 
+	<h3 class="body-section-title" id="datatypes">Тип документа</h3> 
+	<p><span style="margin-left:4px">{{object.doctype.name}}</span></p>
+</p>
+
+<p id="formatsdesc"> 
+	<h3 class="body-section-title" id="formats">Тематика документа</h3> 
+	<p><span style="margin-left:4px">{{object.theme.name}}</span>
+	</p>
+</p>
+
+{% if object.organization %}
+<p id="orgdesc"> 
+	<h3 class="body-section-title" id="language">Ответственная организация</h3> 
+	<p>{{object.organization.name}} (<a href="{{object.organization.website}}">{{object.organization.website}}</a>)</p>
+	<p>{{object.organization.description}}</p>
+</p>
+{% endif %}
+
+
+<p id="datesdesc"> 
+    <h3 class="body-section-title" id="dates">Даты</h3> 
+    <p>
+	<span style="font-style:bold">Дата внесения:</span><span style="margin-left:1em;">{{object.date_created}}</span><br/>
+    </p>
+</p>
+
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/opengovdataru/embed.js"></script><noscript><a href="http://opengovdataru.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endblock %}
+{% block endpage %}
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+		var query = '?';
+			for(var i = 0; i < links.length; i++) {
+				if(links[i].href.indexOf('#disqus_thread') >= 0) {
+						query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+							}
+								}
+									document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/opengovdataru/get_num_replies.js' + query + '"></' + 'script>');
+									})();
+									//]]>
+									</script>
+{% endblock %}
+{% block col3 %}
+<h3>Навигация</h3>
+<p><a href="/laws/">вернуться к списку документов</a></p>
+<h3>Помочь проекту</h3>
+<p>Вы можете оказать помощь проекту присоединившись к <a href="http://groups.google.com/group/opengovdataru">сообществу проекта</a>.</p>
+
+
+{% endblock %}

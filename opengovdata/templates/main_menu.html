@@ -1,0 +1,11 @@
+      <div class="hlist">
+        <ul>
+{% for item in menu_items %}
+{% ifequal current_item item.code %}
+<li><a class="active" style="font-weight:bold;color: red;font-family:Tahoma;font-size:16px" href="{{item.url}}">{{item.name}}</b></a></li>
+{% else %}
+<li><a class="menu_item" href="{{item.url}}" style="font-weight:bold;font-family:Tahoma;font-size:16px">{{item.name}}</a></li>
+{% endifequal %}
+{% endfor %}
+        </ul>
+      </div>

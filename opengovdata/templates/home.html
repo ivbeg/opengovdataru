@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Django AuthOpenID test</h1>
+
+<p>Welcome {{ user }}</p>
+
+
+{% if request.GET.msg %}
+	<p class="warning">{{ request.GET.msg }}</p>
+{% endif %}
+
+{% if user.is_authenticated%}
+
+{% if has_openids %}
+<h2>Associated openids</h2>
+<ul>
+	{% for oid_url in associated_openids %}
+		<li>{{ oid_url }} (<a href="{% url user_dissociate %}?openid_url={{ oid_url }}">dissociate</a>)</li>
+	{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+<h2>Actions:</h2>
+<ul>
+	<li><a href="{% url user_associate %}">Associate a new openid</a></li>
+	<li><a href="{% url auth_password_change %}">Change password</a></li>
+  	<li><a href="{% url user_signout %}">signout</a></li>
+</ul>
+{% else%}    
+<p> <a href="{% url user_signin %}">signin</a></p>
+{% endif %}
+
+{% endblock %}

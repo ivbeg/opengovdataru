@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block head %}
+
+
+{% endblock %}
+
+
+{% block content %}
+{% if msg %}
+<br />
+	<p class="warning">{{ msg }}</p>
+{% endif %}
+
+<div class="login">
+
+<form name="fopenid" action="" method="post">
+    <input type="hidden" name="next" value="{{ next }}" />
+	<fieldset>
+		<legend>{% trans "Add a new OpenID URL" %}</legend>
+        <div class="form-row"><label for="id_openid_ul">{% trans "OpenId URL :" %}</label><br />{{ form.openid_url }}</div>
+        <div class="submit-row "><input name="bassociate" type="submit" value="{% trans "Add OpenID" %}"></div>
+		
+	</fieldset>
+</form>	
+</div>	
+{% endblock %}
+

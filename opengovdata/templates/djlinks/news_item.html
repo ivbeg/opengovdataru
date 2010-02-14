@@ -1,0 +1,15 @@
+{% extends "base2cols.html" %}
+{% load digg_paginator %}
+{% load main_menu %}
+{% block menu %}{% main_menu 'news'%}{% endblock %}
+
+{% block col1 %}
+<h2>{{object.pubdate}}: {{object.title}}</h2>
+<p>{{object.body|safe}}</p>
+{% endblock %}
+{% block col3 %}
+<h3>Навигация</h3>
+<p><a href="/news/">вернуться к списку новостей</a></p>
+<h3>Помочь проекту</h3>
+<p>Вы можете принять участие в проекта присоединяясь к <a href="http://groups.google.com/group/opengovdataru">сообществу проекта</a>.</p>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block head %}
+{% endblock %}
+
+
+{% block col1 %}
+<h2>Регистрация</h2>
+<form action="" method="post">
+	<table>
+		{{ form.as_table }}
+	</table>
+	 <div class="submit-row"><input type="submit" name="bsignup'" value="{% trans "Sign up" %}"> </div>
+{% endblock %}
+
+{% block col2 %}
+{% endblock %}

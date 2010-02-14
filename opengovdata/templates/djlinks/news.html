@@ -1,0 +1,27 @@
+{% extends "base2cols.html" %}
+{% load digg_paginator %}
+{% load main_menu %}
+{% block menu %}{% main_menu 'news'%}{% endblock %}
+{% block title %}OpenGovData.ru. Новости{% endblock %}
+
+{% block col1 %}
+<h2>Новости<span style="float:right"><a href="/news/rss/"><img src="/static/img/rss.png"/></a></span></h2>
+<table border="0" cellpadding="2px" summary="List of "> 
+<tbody>
+{% for item in object_list%}
+<tr>
+<td><h4><a href="/news/{{item.id}}/">{{item.title}}</a></h4>
+<div>{{item.body|safe}}</div><br/>
+</td>
+<td style="width: 8em;">{{item.pubdate}}</td>
+
+</tr>
+{% endfor %}
+</tbody>
+</table>
+{% digg_paginator %}
+{% endblock %}
+{% block col3 %}
+<h3>Помочь проекту</h3>
+<p>Вы можете принять участие в проекта присоединяясь к <a href="http://groups.google.com/group/opengovdataru">сообществу проекта</a>.</p>
+{% endblock %}
