@@ -1,9 +1,10 @@
 # -*- coding: utf8 -*-
 # Django settings for opengovdata project.
 import os
-DEBUG = False
-#DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+#DEBUG = False
+DEBUG = True
+#TEMPLATE_DEBUG = DEBUG
+TEMPLATE_DEBUG = False
 
 PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
 
@@ -12,6 +13,12 @@ ADMINS = (
 )
 
 MANAGERS = ADMINS
+
+CACHE_MIDDLEWARE_SECONDS = 60 * 15
+#CACHE_MIDDLEWARE_ANONYMOUS_ONLY = True
+CACHE_MIDDLEWARE_KEY_PREFIX = 'ogd_'
+CACHE_BACKEND = 'memcached://127.0.0.1:11211/'
+
 
 #DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
 DATABASE_ENGINE = 'mysql'
@@ -74,7 +81,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'django.middleware.cache.FetchFromCacheMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.middleware.doc.XViewMiddleware',
@@ -113,4 +122,5 @@ SITE_MAIN_MENU = [
     {'code' : 'opendata', 'name' : u'Открытые данные', 'url' : '/opendata/'},
     {'code' : 'laws', 'name' : u'Банк документов', 'url' : '/laws/', 'last' : True},
 ]
+        
         

@@ -12,6 +12,9 @@ class DataSourceAdmin(admin.ModelAdmin):
     list_filter = ['datatype', 'formats', 'organization']
     search_fields = ('slug', 'name', 'about_txt', 'copyright')
 
+class OrganizationAdmin(admin.ModelAdmin):
+    list_display = ('name', 'website', 'description')
+
 
 admin.site.register(OpenData, OpenDataAdmin)
 admin.site.register(OpenDataTag)
@@ -19,7 +22,7 @@ admin.site.register(OpenDataFile)
 admin.site.register(OpenDataType)
 admin.site.register(Tag)
 admin.site.register(OrganizationType)
-admin.site.register(Organization)
+admin.site.register(Organization, OrganizationAdmin)
 admin.site.register(DataType)
 admin.site.register(DataFormat)
 admin.site.register(DataSource, DataSourceAdmin)

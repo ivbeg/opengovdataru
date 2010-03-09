@@ -24,11 +24,11 @@ class OrganizationType(models.Model):
     name = models.CharField(name=_('name'), max_length=50)
 
     def __unicode__(self):
-	return u'%s' %(self.name)
+        return u'%s' %(self.name)
 
     class Meta:
-	verbose_name = _('Organization type')
-	verbose_name_plural = _('Organization types')
+        verbose_name = _('Organization type')
+        verbose_name_plural = _('Organization types')
 	
 
 
@@ -37,11 +37,11 @@ class Tag(models.Model):
     name = models.CharField(name=_('name'), max_length=50)
 
     def __unicode__(self):
-	return u'%s' %(self.name)
+        return u'%s' %(self.name)
 
     class Meta:
-	verbose_name = _('Tag')
-	verbose_name_plural = _('Tags')
+        verbose_name = _('Tag')
+        verbose_name_plural = _('Tags')
 	
 	
 
@@ -54,11 +54,12 @@ class Organization(models.Model):
     
 
     def __unicode__(self):
-	return u'%s' %(self.name)
+        return u'%s' %(self.name)
 
     class Meta:
-	verbose_name = _('Organization')
-	verbose_name_plural = _('Organizations')
+        ordering = ['name', ]
+        verbose_name = _('Organization')
+        verbose_name_plural = _('Organizations')
 
 
 class DataFormat(models.Model):
@@ -66,22 +67,22 @@ class DataFormat(models.Model):
     name = models.CharField(name=_('name'), max_length=200)
 	
     def __unicode__(self):
-	return u'%s' %(self.name)
+        return u'%s' %(self.name)
 
     class Meta:
-	verbose_name = _('Data format')
-	verbose_name_plural = _('Data formats')
+        verbose_name = _('Data format')
+        verbose_name_plural = _('Data formats')
 
 class DataType(models.Model):
     """Data type"""
     name = models.CharField(name=_('name'), max_length=200)
 	
     def __unicode__(self):
-	return u'%s' %(self.name)
+        return u'%s' %(self.name)
 
     class Meta:
-	verbose_name = _('Source Data type')
-	verbose_name_plural = _('Source Data types')
+        verbose_name = _('Source Data type')
+        verbose_name_plural = _('Source Data types')
 
 
 
@@ -100,19 +101,23 @@ class DataSource(models.Model):
     
     copyright_txt = models.TextField(_('Copyright'), blank=True, null=True)    
     
-    date_created = models.DateTimeField(_('date created'), default=datetime.datetime.now())
-    date_updated = models.DateTimeField(_('date updated'), default=datetime.datetime.now())
+    date_created = models.DateTimeField(_('date created'), default=datetime.datetime.now(), db_index=True)
+    date_updated = models.DateTimeField(_('date updated'), default=datetime.datetime.now(), db_index=True)
 
 
     def tags(self):
-	return DataSourceTag.objects.filter(source=self)
+        return DataSourceTag.objects.filter(source=self)
 
     def __unicode__(self):
-	return u'%s %s' %(self.name, self.description_link)
+        return u'%s %s' %(self.name, self.description_link)
+
+
+    def get_absolute_url(self):
+        return u'/source/%d/' %(self.id,)
 
     class Meta:
-	verbose_name = _('Data source')
-	verbose_name_plural = _('Data sources')
+        verbose_name = _('Data source')
+        verbose_name_plural = _('Data sources')
 
 
 class DataSourceTag(models.Model):
@@ -121,12 +126,12 @@ class DataSourceTag(models.Model):
     source = models.ForeignKey(DataSource)
 
     def __unicode__(self):
-	return u'%s: %s' %(self.source.name, self.tag.name)
+        return u'%s: %s' %(self.source.name, self.tag.name)
 
     class Meta:
-	unique_together = ['tag', 'source']
-	verbose_name = _('Data source tag')
-	verbose_name_plural = _('Data source tags')
+        unique_together = ['tag', 'source']
+        verbose_name = _('Data source tag')
+        verbose_name_plural = _('Data source tags')
 
 
     
@@ -139,11 +144,11 @@ class FieldType(models.Model):
     parent = models.ForeignKey('self', null=True, blank=True)
 	
     def __unicode__(self):
-	return self.name
+        return self.name
 	
     class Meta:
-	verbose_name = _('Field type')
-	verbose_name_plural = _('Field types')
+        verbose_name = _('Field type')
+        verbose_name_plural = _('Field types')
     
 
 
@@ -154,11 +159,11 @@ class OpenDataType(models.Model):
     description = models.TextField(name=_('description'),  blank=True, null=True)
 	
     def __unicode__(self):
-	return u'%s' %(self.name)
+        return u'%s' %(self.name)
 
     class Meta:
-	verbose_name = _('OpenData type')
-	verbose_name_plural = _('OpenData types')
+        verbose_name = _('OpenData type')
+        verbose_name_plural = _('OpenData types')
 
 
 class OpenData(models.Model):
@@ -185,22 +190,24 @@ class OpenData(models.Model):
     datatypes = models.ManyToManyField(OpenDataType, blank=True, null=True)
     formats = models.ManyToManyField(DataFormat, blank=True, null=True)
 
+    def get_absolute_url(self):
+        return u'/opendata/%d/' %(self.id,)
         
     def fields(self):
-	return DataField.objects.filter(opendata=self).order_by('num')
+        return DataField.objects.filter(opendata=self).order_by('num')
 
     def tags(self):
-	return OpenDataTag.objects.filter(opendata=self)
+        return OpenDataTag.objects.filter(opendata=self)
 	
     def files(self):
-	return OpenDataFile.objects.filter(opendata=self)
+        return OpenDataFile.objects.filter(opendata=self)
 
     def __unicode__(self):
-	return u'%s' %(self.opendata_id)
+        return u'%s' %(self.opendata_id)
 
     class Meta:
-	verbose_name = _('OpenData dataset')
-	verbose_name_plural = _('OpenData datasets')
+        verbose_name = _('OpenData dataset')
+        verbose_name_plural = _('OpenData datasets')
 
 class OpenDataTag(models.Model):
     """Data source tag"""
@@ -208,12 +215,12 @@ class OpenDataTag(models.Model):
     opendata = models.ForeignKey(OpenData)
 
     def __unicode__(self):
-	return u'%s: %s' %(self.opendata.name, self.tag.name)
+        return u'%s: %s' %(self.opendata.name, self.tag.name)
 
     class Meta:
-	unique_together = ['tag', 'opendata']
-	verbose_name = _('Opendata tag')
-	verbose_name_plural = _('Opendata tags')
+        unique_together = ['tag', 'opendata']
+        verbose_name = _('Opendata tag')
+        verbose_name_plural = _('Opendata tags')
 
 class OpenDataFile(models.Model):
     """Open data published file"""
@@ -227,11 +234,11 @@ class OpenDataFile(models.Model):
     date_updated = models.DateTimeField(_('date updated'), default=datetime.datetime.now())
     
     def __unicode__(self):
-	return self.urlpath
+        return self.urlpath
 	
     class Meta:
-	verbose_name = _('Open data file')
-	verbose_name_plural = _('Open data files')
+        verbose_name = _('Open data file')
+        verbose_name_plural = _('Open data files')
 
 class DataField(models.Model):
     """Data Field"""
@@ -245,11 +252,11 @@ class DataField(models.Model):
     units = models.CharField(name=_('units'), max_length=200, null=True, blank=True)
     
     def __unicode__(self):
-	return self.name
+        return self.name
 	
     class Meta:
-	verbose_name = _('Data field')
-	verbose_name_plural = _('Data fields')
+        verbose_name = _('Data field')
+        verbose_name_plural = _('Data fields')
 	
 
 
